@@ -1,1 +1,244 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{svg}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{todonotes}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{float}
 
+\title{Charging \& Discharging of Capacitors}
+\author{Raymond Langehennig \and Sophie Krupin}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+	\subsection{Background}
+	Capacitors are electronic components that accumulate and hold charge.
+	Usually this is accomplished through the use of two conductive surfaces separated by a dielectric, placed in a circuit with a source of electromotive force.
+	Capacitors exhibit logarithmic growth and exponential decay of voltage respectively when charging and discharging, approaching either their maximum voltage or 0 asymptotically.
+	
+	\subsection{Objective}
+	The foremost aim of this experiment was to gain experience working with capacitors and an understanding of how they work.
+	Through the analysis of data, experimental values should be obtained which agree with our theoretical understanding of capacitors.
+		
+	\subsection{Theory}
+	Charge in a capacitor is expressed as $Q = C\Delta V$, where $Q$ is the charge in coulombs, $C$ the capacitance of the capacitor in farads, and $\Delta V$ the voltage across the capacitor in volts.
+	From this, one can derive two equations that give the voltage across the capacitor as function of time.	They are as follows:\\
+	For charging:
+	\[
+	V(t) = V_\mathrm{max}(1-e^{-t/\tau})
+	\]
+	and for discharging:
+	\[
+	V(t) = V_\mathrm{max}e^{-t/\tau}
+	\]
+	Where $R$ is the resistance of the circuit and $\tau$ is the \emph{time constant}, equal to $RC$.
+	
+	
+	
+\section{Procedure}
+	The experiment consisted of placing a 100 $\mu$F polarized electrolytic capacitor in a circuit (constructed on a breadboard) and observing the behavior caused. These circuits contained two push-buttons in order to control the flow of current; one connected the positive terminal of the capacitor to the power supply \& one connected the capacitor to ground, in order to let the capacitor discharge.
+	\begin{figure}[H]
+		\begin{subfigure}{0.5\textwidth}
+			\includesvg[width=\linewidth]{circuit1.svg}
+			\caption{The capacitor in series with two parallel LEDs.}
+			\label{circuit1}
+		\end{subfigure}
+		\begin{subfigure}{0.5\textwidth}
+			\includesvg[width=\linewidth]{circuit2.svg}
+			\caption{The capacitor with a voltmeter across it.}
+			\label{circuit2}
+		\end{subfigure}
+		\caption{Diagrams of the two circuits assembled.}
+		\label{diagrams}
+	\end{figure}
+	Two circuits were constructed over the course of the experiment as shown in figure \ref{circuit1} \& \ref{circuit2}.\\
+	The first circuit saw two LEDs placed in parallel such that one would light when the capacitor charged and the other would light as it discharged.\\
+	For the second circuit, the LEDs were removed and a voltmeter was placed across the capacitor so that the voltage across could be measured at different times. In theory, the voltage would approach $V_\mathrm{max}$ asymptotically when the capacitor is charging \& 0 when discharging.
+	The time it took to reach $0.37V_\mathrm{max}$ from 0 V and the time it took to charge \& discharge fully were taken (tables \ref{chdch} \& \ref{tau}).
+
+\section{Processed Data} \label{dataproc}
+	As with the previous lab, data from the experiment was processed using a combination of Google Sheets \& NumPy. Matplotlib's \texttt{pyplot} was again used to plot this data.\\
+	By taking the natural log of $V(t)=V_0e^{\frac{-t}{\tau}}$, the equation for voltage across a discharging capacitor, one can linearize the equation
+	\begin{align*}
+		\ln{V}&=\ln{(V_0e^\frac{-t}{\tau})}\\
+		&= \ln{V_0} + \ln{(e^\frac{-t}{\tau})}\\
+		&= \ln{V_0} +\left(\frac{-1}{\tau}\right)t\\
+	\end{align*}
+	Compare with the equation of a straight line ($y=A+Bx$)
+	\begin{align*}
+		\text{If } y &= \ln{V},\\
+		B &= \frac{-1}{\tau}\\
+		x &= t\\
+		A &= \ln{V_0}
+	\end{align*}
+	By finding the line of best fit for the actual voltage vs. time measurements, values for $\tau$ and $V_0$ can then be obtained from the equation of this line, where $\tau = \frac{-1}{B_\mathrm{fit}}$ and $V_0 = e^{A_\mathrm{fit}}$.
+		\begin{figure}[h]
+			\begin{subfigure}{0.3\textwidth}
+				\includesvg[width=\linewidth]{charging.svg}
+				\caption{Voltage across a charging capacitor over time.}
+			\end{subfigure}
+			\begin{subfigure}{0.3\textwidth}
+				\includesvg[width=\linewidth]{discharging.svg}
+				\caption{Voltage across a discharging capacitor over time.}
+			\end{subfigure}
+			\begin{subfigure}{0.3\textwidth}
+				\includesvg[width=\linewidth]{lnV.svg}
+				\caption{The natural log of voltage across a discharging capacitor over time, with straight line fit ($\chi^2 \approx 36$).}
+				\label{fit}
+			\end{subfigure}
+			\caption{Various graphs of data collected.}
+		\end{figure}
+	
+	
+
+\section{Questions}
+	\subsection{Part E}
+	\begin{quote}
+		Do not press buttons \#1 and \#2 simultaneously. Why?
+	\end{quote}
+	By pressing both buttons at the same time, a connection is made directly between the power supply and ground, thus shorting the circuit. This is readily apparent in figure \ref{diagrams}.
+	
+	\subsection{Part F}
+	\begin{quote}
+		When discharging from $V_\mathrm{max}$, what is $V(t)$ when t = 0? when $t \to \infty$? when t = $\tau$? when t = $2\tau$? when t = $3\tau$?
+	\end{quote}
+	When t = 0, voltage is simply equal to $V_\mathrm{max}$, as no time has passed over which the capacitor could discharge. As $t\to\infty$, however, the limit can be taken
+	\begin{align*}
+		\lim_{t\to\infty}V(t) &= \lim_{t\to\infty}(V_\mathrm{max}e^{-t/\tau}) \\
+			&= \lim_{t\to\infty}(V_\mathrm{max}e^{-t}) \\
+			&= \lim_{t\to\infty}(V_\mathrm{max}\frac{1}{e^{t}}) \\
+			&= 0
+	\end{align*}
+	to see that $V\to0$ as $t\to\infty$.\\
+	When t = $\tau$, $V(t)$ simplifies to $\frac{V_\mathrm{max}}{e}$, and when t = 2 or 3$\tau$, $e$ is squared or cubed.\\
+	
+	\begin{quote}
+		When charging from V = 0?
+	\end{quote}
+	The limit evaluates this time to $V_\mathrm{max}$, which is to be expected as the voltage should approach this value asymptotically.
+	Substituting $\tau$ for $t$ now reduces the equation to $V_\mathrm{max} - \frac{V_\mathrm{max}}{e}$ (with multiples of $\tau$ again raising $e$ to the power of that multiple).
+
+	\subsection{Part G}
+	\begin{quote}
+		Based on your “linearized” equation, which property of the straight line (slope or intercept) corresponds to the time constant $\tau$?
+	\end{quote}
+	As shown in section \ref{dataproc}, the slope of the fitted line corresponds to $\tau$.
+
+\section{Results \& Discussion}
+	Four values were ultimately obtained in order to test the theory behind the experiment:\\
+	
+	\begin{table}[H]
+		\centering
+		\caption{Final values.}
+		\begin{tabular}{@{}l|lr@{}}
+			\toprule
+			$\bar{\tau}_\mathrm{meas}$ (s)   & 4.61 ± 0.06 & The average time it took to reach $0.37V_\mathrm{max}$. \\
+			$\tau_\mathrm{fit}$ (s) & 9.73 ± 0.02   & $\tau$ according to the line of best fit.           \\
+			$V_0$ (V)               & 5.029 ± 0.002 & $V_\mathrm{max}$ according to the line of best fit. \\
+			$C_\mathrm{calc}$ ($\mu$F) & 46.0 ± 1.3  & $= \frac{\bar{\tau}_\mathrm{meas}}{R}$.   \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+	The uncertainties were calculated as follows:
+	\begin{align*}
+		&\delta\bar{\tau}_\mathrm{meas} = \frac{\sigma_{\tau_\mathrm{meas}}}{\sqrt{n}}\\
+		&\delta\tau_\mathrm{fit}  = \frac{\delta B_\mathrm{fit}}{|B_\mathrm{fit}|}\tau_\mathrm{fit}\\
+		&\delta V_0				 = \frac{\delta A_\mathrm{fit}}{|A_\mathrm{fit}|}V_0\\
+		&\delta C_\mathrm{calc}	 = \left(\frac{\delta\bar{\tau}_\mathrm{meas}}{|\bar{\tau}_\mathrm{meas}|} + \frac{\delta R}{|R|}\right)C_\mathrm{calc}
+	\end{align*}
+	
+	It is immediately apparent that $\bar{\tau}_\mathrm{meas}$ is roughly \emph{half} that of $\tau_\mathrm{fit}$ as well as $\tau_\mathrm{nominal} = R_\mathrm{nominal}C_\mathrm{nominal} = 10 \text{ s}$.
+	The same goes for $C_\mathrm{calc}$ and $C_\mathrm{nominal}$, which makes sense as it is dependent on $\bar{\tau}_\mathrm{meas}$.
+	This is the result of a procedural error: when charging a capacitor, $\tau$ is the time it takes to reach $V_\mathrm{max} - \frac{V_\mathrm{max}}{e}$, not $\frac{V_\mathrm{max}}{e}$.
+	Another possible source of error in this lab was the method for measuring time, which consisted of recording each test and then going through the video, frame by frame, in order to assign a voltage to each point in time.
+	When recording the video, the exact moment the button was pressed was not indicated, so it had to be estimated visually. The multimeter, too, was imprecise as it only updated a few times every second.
+	
+	It should also be noted that, while observing the LEDs during Part E of the lab, the time it took them to light on or off did vary with the resistor used, but their intensity seemingly did not---which is at odds with how it should have behaved in theory. This could perhaps be attributed to the lighting of the room in which the experiment took place.
+
+\section{Conclusion}
+	This experiment produced values that mostly agreed with the expected values according to theory, at least when the fitted values are considered.
+	$\tau_\mathrm{fit}$ is within 2.7\% of the expected, nominal $\tau$, and $V_\mathrm{max,fit}$ is within 0.58\% of the expected, nominal $V_\mathrm{max}$.
+	In the future, care should be taken that the objectives of the experiment at hand are clear and properly put the theory behind said experiment to the test, and that the environment in which the experiment is conducted does not make observation difficult.
+	
+
+\appendix
+\section*{Data}
+\begin{table}[]
+	\begin{tabular}{@{}ll|ll@{}}
+		\toprule
+		\multicolumn{2}{c|}{Charging} & \multicolumn{2}{c}{Discharging} \\
+		t (s)  & V (V)        & t (s)        & V (mV)           \\ \midrule
+		0.00   & 0.000 ± 0    & 0.00         & 4972 ± 40        \\
+		3.97   & 1.520 ± 0.01 & 1.98         & 4135 ± 33        \\
+		5.96   & 2.180 ± 0.02 & 3.97         & 3412 ± 27        \\
+		7.94   & 2.710 ± 0.02 & 5.95         & 2760 ± 22        \\
+		9.93   & 3.140 ± 0.03 & 7.94         & 2235 ± 18        \\
+		11.91  & 3.460 ± 0.03 & 9.93         & 1811 ± 14        \\
+		13.90  & 3.740 ± 0.03 & 11.91        & 1469 ± 12        \\
+		15.88  & 3.980 ± 0.03 & 13.90        & 1193 ± 10        \\
+		17.87  & 4.100 ± 0.03 & 15.88        & 969 ± 8          \\
+		19.85  & 4.270 ± 0.03 & 17.87        & 785 ± 6          \\
+		21.84  & 4.400 ± 0.04 & 19.85        & 655 ± 5          \\
+		23.82  & 4.500 ± 0.04 & 21.84        & 531 ± 4          \\
+		25.81  & 4.590 ± 0.04 & 23.82        & 433.3 ± 3        \\
+		27.79  & 4.650 ± 0.04 & 25.81        & 354 ± 3          \\
+		29.78  & 4.720 ± 0.04 & 27.79        & 295.4 ± 2        \\
+		31.76  & 4.760 ± 0.04 & 29.78        & 237.2 ± 2        \\
+		33.75  & 4.800 ± 0.04 & 31.76        & 194.7 ± 2        \\
+		35.74  & 4.830 ± 0.04 & 33.75        & 163.2 ± 1        \\
+		37.72  & 4.860 ± 0.04 & 35.74        & 134.4 ± 1        \\
+		39.71  & 4.880 ± 0.04 & 37.72        & 110.9 ± 1        \\
+		41.69  & 4.900 ± 0.04 & 39.71        & 91.8 ± 1         \\
+		43.68  & 4.910 ± 0.04 & 41.69        & 76.2 ± 1         \\
+		45.66  & 4.920 ± 0.04 & 43.68        & 63.4 ± 1         \\
+		47.65  & 4.930 ± 0.04 & 45.66        & 52.9 ± 0         \\
+		49.63  & 4.940 ± 0.04 & 47.65        & 44.3 ± 0         \\
+		51.62  & 4.950 ± 0.04 & 49.63        & 37.3 ± 0         \\
+		53.60  & 4.950 ± 0.04 & 51.62        & 31.5 ± 0         \\
+		55.59  & 4.950 ± 0.04 & 53.60        & 27.2 ± 0         \\
+		57.57  & 4.960 ± 0.04 & 55.59        & 23.5 ± 0         \\
+		59.56  & 4.960 ± 0.04 & 57.57        & 19.9 ± 0         \\
+		61.54  & 4.960 ± 0.04 & 59.56        & 17.2 ± 0         \\
+		63.53  & 4.970 ± 0.04 & 61.54        & 15.4 ± 0         \\
+		65.51  & 4.970 ± 0.04 & 63.53        & 13.6 ± 0         \\
+		67.50  & 4.970 ± 0.04 & 65.51        & 11.4 ± 0         \\
+		69.48  & 4.970 ± 0.04 & 67.50        & 10.2 ± 0         \\
+		71.47  & 4.970 ± 0.04 & 69.48        & 9.2 ± 0          \\
+		73.45  & 4.970 ± 0.04 & 71.47        & 8.2 ± 0          \\
+		75.44  & 4.97 ± 0.04  & 73.45        & 7.5 ± 0          \\
+		77.43  & 4.97 ± 0.04  & 75.44        & 6.9 ± 0          \\
+		79.41  & 4.97 ± 0.04  & 77.42        & 6.3 ± 0          \\
+		81.40  & 4.97 ± 0.04  & 79.41        & 5.7 ± 0          \\
+		83.38  & 4.97 ± 0.04  & 81.39        & 5.3 ± 0          \\
+		85.37  & 4.97 ± 0.04  & 83.38        & 4.8 ± 0          \\
+		87.35  & 4.98 ± 0.04  & 85.36        & 4.5 ± 0          \\
+		&              & 87.35        & 4.2 ± 0          \\
+		&              & 89.34        & 4 ± 0            \\
+		&              & 91.32        & 3.7 ± 0          \\
+		&              & 93.31        & 3.6 ± 0          \\
+		&              & 95.29        & 3.4 ± 0          \\ \bottomrule
+	\end{tabular}
+	\caption{Time vs. Voltage as the capacitor was charged \& discharged.}
+	\label{chdch}
+\end{table}
+
+\begin{table}[]
+	\begin{tabular}{@{}lll@{}}
+		\toprule
+		Trial & t (s) & V           \\ \midrule
+		5     & 4.63  & 1.83 ± 0.01 \\
+		4     & 4.83  & 1.84 ± 0.01 \\
+		3     & 4.46  & 1.82 ± 0.01 \\
+		2     & 4.61  & 1.82 ± 0.01 \\
+		1     & 4.54  & 1.81 ± 0.01 \\ \bottomrule
+	\end{tabular}
+	\caption{Measurements of time constant $\tau$.}
+	\label{tau}
+\end{table}
+
+\end{document}
