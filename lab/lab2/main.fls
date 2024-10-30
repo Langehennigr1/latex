@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PWD c:/Users/rayla/Documents/latex/latex/lab/lab2
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
@@ -6,6 +7,16 @@ INPUT c:/Users/rayla/Documents/latex/latex/lab/lab2/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
+=======
+PWD c:/Users/rayla/Documents/latex/lab/lab2
+INPUT c:/texlive/2024/texmf.cnf
+INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/rayla/Documents/latex/lab/lab2/main.tex
+OUTPUT main.log
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+>>>>>>> 1c7dc8e4c4382cf0e0341aab54341056784d7e49
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
@@ -227,8 +238,11 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+<<<<<<< HEAD
 OUTPUT main.pdf
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+=======
+>>>>>>> 1c7dc8e4c4382cf0e0341aab54341056784d7e49
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -245,6 +259,10 @@ INPUT ./svg-inkscape/circuit1_svg-tex.pdf
 INPUT ./svg-inkscape/circuit1_svg-tex.pdf
 INPUT ./svg-inkscape/circuit1_svg-tex.pdf_tex
 INPUT ./svg-inkscape/circuit1_svg-tex.pdf_tex
+<<<<<<< HEAD
+=======
+OUTPUT main.pdf
+>>>>>>> 1c7dc8e4c4382cf0e0341aab54341056784d7e49
 INPUT ./svg-inkscape/circuit1_svg-tex.pdf
 INPUT ./svg-inkscape/circuit1_svg-tex.pdf_tex
 INPUT ./svg-inkscape/circuit1_svg-tex.pdf
@@ -264,6 +282,10 @@ INPUT ./svg-inkscape/circuit2_svg-tex.pdf
 INPUT ./svg-inkscape/circuit2_svg-tex.pdf_tex
 INPUT ./svg-inkscape/circuit2_svg-tex.pdf
 INPUT ./svg-inkscape/circuit2_svg-tex.pdf
+<<<<<<< HEAD
+=======
+INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+>>>>>>> 1c7dc8e4c4382cf0e0341aab54341056784d7e49
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ./charging.svg
 INPUT ./charging.svg
