@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1730420208.24218 "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" "main.pdf" "main" 1730420209.5343 0
+["pdflatex"] 1730421709.15549 "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" "main.pdf" "main" 1730421710.77065 0
   "WIN_20240927_13_48_12_Pro.jpg" 1727459294 2983462 3e21be709fa574cfcef6a07fce35a431 ""
   "WIN_20240927_13_51_59_Pro.jpg" 1727459530 1333685 00f83ed7d3de7bec4c8c2bbca1f800dc ""
-  "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" 1730420205 3852 c07b3d349404b36d1cc9ad13fc9b6bff ""
+  "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" 1730421708 4474 8cd0115545c65a23626ba76c203d9386 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1729030782 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1729029755 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1729029756 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -142,9 +142,9 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1729036117 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1729036795 3325965 72848a6820275520e8fa37343fe5363a ""
   "c:/texlive/2024/texmf.cnf" 1729036052 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1730420209 2028 40f2cb8426a9e9225e9318ebfc7f0d50 "pdflatex"
-  "main.out" 1730420209 1372 171b6cd18b14c8d1ee20d87ac6f713ad "pdflatex"
-  "main.tex" 1730420205 3852 c07b3d349404b36d1cc9ad13fc9b6bff ""
+  "main.aux" 1730421710 2181 79de8891b951df7f0a86a5c76b8dd6a6 "pdflatex"
+  "main.out" 1730421710 1372 171b6cd18b14c8d1ee20d87ac6f713ad "pdflatex"
+  "main.tex" 1730421708 4474 8cd0115545c65a23626ba76c203d9386 ""
   (generated)
   "main.aux"
   "main.log"
