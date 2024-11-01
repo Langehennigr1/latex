@@ -3,6 +3,7 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 \usepackage{hyperref}
+\usepackage{subcaption}
 
 \title{Introduction to Oscilloscopes \& Function Generators}
 \author{Raymond Langehennig}
@@ -52,16 +53,29 @@
 
     \subsection{Charging \& discharging of a capacitor}
         Thus far, only the output of the function generator had been investigated using the oscilloscope. In actual practice, oscilloscopes are used in a similar manner to a voltmeter---that is, they are connected in parallel to the component across which the voltage is to be measured. \\% grammar?
-        For this portion of the experiment, a circuit would be constructed on a breadboard consisting of two parallel LEDs, a 997 $\Omega$ resistor, and polarized 100.9 nF capacitor in series with the output of the function generator.
+        For this portion of the experiment, a circuit would be constructed on a breadboard consisting of two parallel LEDs, a 997 $\Omega$ resistor, and 100.9 nF capacitor in series with the output of the function generator as shown in figure \ref{circuitry}.
         The function generator was configured to produce an 8 V, 500 Hz square wave which was output to both the circuit \& the first channel of the oscilloscope by means of a Tee-splitter.
         Across the capacitor was also placed a probe, which was connected to the second channel of the oscilloscope.
 
         \begin{figure}
-            \missingfigure[figwidth=0.1\textwidth]{diagram}
+            \centering
+            \begin{minipage}{0.3\textwidth}
+                    \includegraphics[width=0.8\linewidth]{g115.png}
+                    \caption{Idealized circuit diagram.}
+            \end{minipage}
+            \begin{minipage}{0.3\textwidth}
+                    \includegraphics[width=0.8\linewidth]{breadboard.png}
+                    \caption{Rough sketch of breadboard circuit.}
+            \end{minipage}
+            \begin{minipage}{0.3\textwidth}
+                    \includegraphics[width=0.8\linewidth]{circuit.jpg}
+                    \caption{Circuit as assembled on breadboard.}
+            \end{minipage}
         \end{figure}
 
-        awa
 
+
+\section{Exercises}
 
 
 \section{Results}

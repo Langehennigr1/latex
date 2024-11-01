@@ -1,8 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1730421709.15549 "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" "main.pdf" "main" 1730421710.77065 0
+["pdflatex"] 1730499542.16435 "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" "main.pdf" "main" 1730499546.20039 0
   "WIN_20240927_13_48_12_Pro.jpg" 1727459294 2983462 3e21be709fa574cfcef6a07fce35a431 ""
   "WIN_20240927_13_51_59_Pro.jpg" 1727459530 1333685 00f83ed7d3de7bec4c8c2bbca1f800dc ""
-  "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" 1730421708 4474 8cd0115545c65a23626ba76c203d9386 ""
+  "breadboard.png" 1730495993 423515 3575366a35629f64a4311edd74abebf8 ""
+  "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" 1730499536 5124 6667e885823e3d396ed46fd833c879fe ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1729030782 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1729029755 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1729029756 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -100,6 +101,9 @@
   "c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1729031631 2378 05fbb4f2b23b0e142f8cd3440c37e72e ""
   "c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty" 1729031631 5525 3792dcd5bc92158cfaf00cc591e557cf ""
   "c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1729031632 8448 358bf3de18513f057a13bdc6e6770c41 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty" 1729029607 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
+  "c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty" 1729029607 72619 ee90b6612147680fd73c3b1406a74245 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty" 1729029607 12494 0c0cdb824278a4d51cefeb2e79901315 ""
   "c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1729030483 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1729030532 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty" 1729030925 41601 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -142,9 +146,11 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1729036117 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1729036795 3325965 72848a6820275520e8fa37343fe5363a ""
   "c:/texlive/2024/texmf.cnf" 1729036052 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1730421710 2181 79de8891b951df7f0a86a5c76b8dd6a6 "pdflatex"
-  "main.out" 1730421710 1372 171b6cd18b14c8d1ee20d87ac6f713ad "pdflatex"
-  "main.tex" 1730421708 4474 8cd0115545c65a23626ba76c203d9386 ""
+  "circuit.jpg" 1730494423 2895248 880c5a87be624840e8f9379b16b0e964 ""
+  "g115.png" 1730490599 17980 8f90da9f70e879e4290e74d498c7b296 ""
+  "main.aux" 1730499545 2737 42482543d0bf2a7e0608e951d1d31573 "pdflatex"
+  "main.out" 1730499545 1461 f0884d7793aedd3ad6339911f14191e0 "pdflatex"
+  "main.tex" 1730499536 5124 6667e885823e3d396ed46fd833c879fe ""
   (generated)
   "main.aux"
   "main.log"
