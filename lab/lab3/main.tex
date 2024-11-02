@@ -1,9 +1,12 @@
 \documentclass{article}
+\usepackage{booktabs}
 \usepackage{todonotes}
 \usepackage{graphicx} % Required for inserting images
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 \usepackage{hyperref}
 \usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{float}
 
 \title{Introduction to Oscilloscopes \& Function Generators}
 \author{Raymond Langehennig}
@@ -22,13 +25,13 @@
             Function generators are devices that produce a signal that is read 
 
     \subsection{Objective}
-    The aim of this lab is to gain experience with digital oscilloscopes and to better understand how they can be used to take measurements.
+    The aim of this lab is to gain experience with digital oscilloscopes and to better understand how they can be used to take measurements. In particular, the oscilloscope will be used to measure the time constant of a capacitor.
 
     \subsection{Theory}\label{theory}
     
 
 \section{Procedure}
-    This section details both our inital experimentation with the oscilloscope in order to become familiar with it and our subsequent experiment with the charging and discharging of a capacitor.\\ % rewrite!!
+    This section details both the inital experimentation with the oscilloscope in order to become familiar with it and the subsequent experiment with the charging and discharging of a capacitor.\\ % rewrite!!
     For both experiments, a RIGOL DS1104-Z oscilloscope and DG1022-Z function generator (pictured in figure \ref{oscnfunc1}) were used.
 
     \begin{figure}
@@ -48,15 +51,55 @@
             \label{funcgen1}
         \end{figure}
 
-        % MORE
+        \subsubsection{Exercises}
+            A series of exercises were carried out to gain familiarity with the oscilloscope.
+
+            \begin{enumerate}[label=(\alph*)]
+                \item The function generator was set to produce an 80 Hz sine wave.
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=0.2\linewidth]{a.jpg}
+                \end{figure}
+
+                \item The amplitude was changed.
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=0.2\linewidth]{b.jpg}
+                \end{figure}
+                
+                \item The frequency was increased to 800 Hz.
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=0.2\linewidth]{c.jpg}
+                \end{figure}
+                
+                \item A DC offset was added.
+                \begin{figure}[h]
+                    \centering
+                    \begin{subfigure}{0.4\textwidth}
+                        \includegraphics[width=\linewidth]{d v.jpg}
+                    \end{subfigure}
+                    \begin{subfigure}{0.4\textwidth}
+                        \includegraphics[width=\linewidth]{d offset.jpg}
+                    \end{subfigure}
+                \end{figure}
+                \item A 80 Hz square wave was produced.
+                \item The frequency was increased to 8 kHz.
+                \item A 200 Hz sine wave was produced and fed into both CH1 \& CH2 of the oscilloscope.
+            \end{enumerate}
+
+
 
 
     \subsection{Charging \& discharging of a capacitor}
         Thus far, only the output of the function generator had been investigated using the oscilloscope. In actual practice, oscilloscopes are used in a similar manner to a voltmeter---that is, they are connected in parallel to the component across which the voltage is to be measured. \\% grammar?
         For this portion of the experiment, a circuit would be constructed on a breadboard consisting of two parallel LEDs, a 997 $\Omega$ resistor, and 100.9 nF capacitor in series with the output of the function generator as shown in figure \ref{circuitry}.
         The function generator was configured to produce an 8 V, 500 Hz square wave which was output to both the circuit \& the first channel of the oscilloscope by means of a Tee-splitter.
-        Across the capacitor was also placed a probe, which was connected to the second channel of the oscilloscope.
+        Across the capacitor was also placed a probe, which was connected to the second channel of the oscilloscope.\\
 
+        
+
+        %kinda fucked
         \begin{figure}
             \centering
             \begin{minipage}{0.3\textwidth}
@@ -71,17 +114,25 @@
                     \includegraphics[width=0.8\linewidth]{circuit.jpg}
                     \caption{Circuit as assembled on breadboard.}
             \end{minipage}
+            \label{circuitry}
         \end{figure}
 
 
-
-\section{Exercises}
-
-
 \section{Results}
-\begin{table}
+    \subsection{Preliminary calculation}
+        The time constant $\tau$ of a capacitor is the time it takes for the capacitor to charge to $V_\mathrm{max}(1-e^-1)$ or discharge to $V_\mathrm{max}e^{-1}$. From this, it follows that if $V_\mathrm{max}$ is known, one can calculate $V(\tau)$ charging \& discharging and measure the time it takes to reach that voltage.
+        For the constructed, this was 2.56 V charging and 1.49 V discharging.
+    \subsection{Measurements}
     
-\end{table}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{@{}l|lr@{}}
+            \toprule
+            $\tau_\mathrm{charging}$ & 116.0 $\mu$s & The time it took for the capacitor to charge to $$\\
+            $\tau_\mathrm{discharging}$ & 120.0 $\mu$s & a \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
 
 \section{Conclusion}
 

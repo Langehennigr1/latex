@@ -9,6 +9,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/todonotes/todonotes.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/todonotes/todonotes.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
@@ -206,6 +208,10 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./main.aux
@@ -255,6 +261,31 @@ INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./a.jpg
+INPUT ./a.jpg
+INPUT ./a.jpg
+INPUT ./a.jpg
+INPUT ./a.jpg
+INPUT ./b.jpg
+INPUT ./b.jpg
+INPUT ./b.jpg
+INPUT ./b.jpg
+INPUT ./b.jpg
+INPUT ./c.jpg
+INPUT ./c.jpg
+INPUT ./c.jpg
+INPUT ./c.jpg
+INPUT ./c.jpg
+INPUT ./d v.jpg
+INPUT ./d v.jpg
+INPUT ./d v.jpg
+INPUT ./d v.jpg
+INPUT ./d v.jpg
+INPUT ./d offset.jpg
+INPUT ./d offset.jpg
+INPUT ./d offset.jpg
+INPUT ./d offset.jpg
+INPUT ./d offset.jpg
 INPUT ./g115.png
 INPUT ./g115.png
 INPUT ./g115.png
@@ -275,7 +306,11 @@ INPUT ./main.out
 INPUT ./main.out
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
