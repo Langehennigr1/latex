@@ -1,12 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1730509996.53268 "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" "main.pdf" "main" 1730509998.57107 0
+["pdflatex"] 1730510080.72066 "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" "main.pdf" "main" 1730510083.32428 0
   "WIN_20240927_13_48_12_Pro.jpg" 1727459294 2983462 3e21be709fa574cfcef6a07fce35a431 ""
   "WIN_20240927_13_51_59_Pro.jpg" 1727459530 1333685 00f83ed7d3de7bec4c8c2bbca1f800dc ""
   "a.jpg" 1730492525 2910846 d20ebc01255029bcee01e6bd7bcd633d ""
   "b.jpg" 1730492599 3012363 2a4216e39aa9b465d5370646231b1f35 ""
   "breadboard.png" 1730495993 423515 3575366a35629f64a4311edd74abebf8 ""
   "c.jpg" 1730492665 2973213 a530d62f789b4f534a81aa703a7a24a4 ""
-  "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" 1730509993 7715 b59a12d1c30fd24c49a300dcb2e76bef ""
+  "c:/Users/rayla/Documents/latex/lab/lab3/main.tex" 1730510079 7721 b449c0e4365061534fd47d00a828aa13 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1729030782 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1729029755 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1729029756 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -160,9 +160,9 @@
   "d offset.jpg" 1730492821 2720486 d1e5266f6de4c011e7e9c908795f707f ""
   "d v.jpg" 1730492789 2950219 017a6cbd463d0f0c251592524bd7e4fa ""
   "g115.png" 1730490599 17980 8f90da9f70e879e4290e74d498c7b296 ""
-  "main.aux" 1730509998 3139 e904fc0053c26d9368cc0f731b17f698 "pdflatex"
-  "main.out" 1730509998 1779 95d46387938ae43ece07c8c391629f41 "pdflatex"
-  "main.tex" 1730509993 7715 b59a12d1c30fd24c49a300dcb2e76bef ""
+  "main.aux" 1730510083 3139 e904fc0053c26d9368cc0f731b17f698 "pdflatex"
+  "main.out" 1730510083 1779 95d46387938ae43ece07c8c391629f41 "pdflatex"
+  "main.tex" 1730510079 7721 b449c0e4365061534fd47d00a828aa13 ""
   (generated)
   "main.aux"
   "main.log"
