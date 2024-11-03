@@ -1,8 +1,8 @@
-PWD c:/Users/rayla/Documents/latex/lab/lab3
+PWD c:/Users/rayla/Documents/latex/latex/lab/lab3
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/rayla/Documents/latex/lab/lab3/main.tex
+INPUT c:/Users/rayla/Documents/latex/latex/lab/lab3/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -226,14 +226,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT ./main.out
-INPUT ./main.out
-INPUT main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT ./main.out
-INPUT ./main.out
 OUTPUT main.out
+OUTPUT main.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -248,8 +242,8 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./WIN_20240927_13_48_12_Pro.jpg
 INPUT ./WIN_20240927_13_48_12_Pro.jpg
 INPUT ./WIN_20240927_13_48_12_Pro.jpg
@@ -260,22 +254,22 @@ INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT ./WIN_20240927_13_51_59_Pro.jpg
+INPUT ./a.jpg
+INPUT ./a.jpg
+INPUT ./a.jpg
+INPUT ./a.jpg
+INPUT ./a.jpg
+INPUT ./b.jpg
+INPUT ./b.jpg
+INPUT ./b.jpg
+INPUT ./b.jpg
+INPUT ./b.jpg
+INPUT ./c.jpg
+INPUT ./c.jpg
+INPUT ./c.jpg
+INPUT ./c.jpg
+INPUT ./c.jpg
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./a.jpg
-INPUT ./a.jpg
-INPUT ./a.jpg
-INPUT ./a.jpg
-INPUT ./a.jpg
-INPUT ./b.jpg
-INPUT ./b.jpg
-INPUT ./b.jpg
-INPUT ./b.jpg
-INPUT ./b.jpg
-INPUT ./c.jpg
-INPUT ./c.jpg
-INPUT ./c.jpg
-INPUT ./c.jpg
-INPUT ./c.jpg
 INPUT ./d v.jpg
 INPUT ./d v.jpg
 INPUT ./d v.jpg
@@ -301,6 +295,7 @@ INPUT ./circuit.jpg
 INPUT ./circuit.jpg
 INPUT ./circuit.jpg
 INPUT ./circuit.jpg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
