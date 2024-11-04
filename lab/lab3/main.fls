@@ -249,17 +249,17 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT ./a.jpg
 INPUT ./a.jpg
 INPUT ./a.jpg
@@ -275,33 +275,43 @@ INPUT ./c.jpg
 INPUT ./c.jpg
 INPUT ./c.jpg
 INPUT ./c.jpg
-INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./d v.jpg
 INPUT ./d v.jpg
 INPUT ./d v.jpg
 INPUT ./d v.jpg
 INPUT ./d v.jpg
-INPUT ./d offset.jpg
-INPUT ./d offset.jpg
-INPUT ./d offset.jpg
-INPUT ./d offset.jpg
-INPUT ./d offset.jpg
-INPUT ./e.jpg
-INPUT ./e.jpg
-INPUT ./e.jpg
-INPUT ./e.jpg
-INPUT ./e.jpg
-INPUT ./f.jpg
-INPUT ./f.jpg
-INPUT ./f.jpg
-INPUT ./f.jpg
-INPUT ./f.jpg
-INPUT ./g115.png
-INPUT ./g115.png
-INPUT ./g115.png
-INPUT ./g115.png
-INPUT ./g115.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ./d offset.jpg
+INPUT ./d offset.jpg
+INPUT ./d offset.jpg
+INPUT ./d offset.jpg
+INPUT ./d offset.jpg
+INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./e.jpg
+INPUT ./e.jpg
+INPUT ./e.jpg
+INPUT ./e.jpg
+INPUT ./e.jpg
+INPUT ./f.jpg
+INPUT ./f.jpg
+INPUT ./f.jpg
+INPUT ./f.jpg
+INPUT ./f.jpg
+INPUT ./g ch1.jpg
+INPUT ./g ch1.jpg
+INPUT ./g ch1.jpg
+INPUT ./g ch1.jpg
+INPUT ./g ch1.jpg
+INPUT ./g ch2.jpg
+INPUT ./g ch2.jpg
+INPUT ./g ch2.jpg
+INPUT ./g ch2.jpg
+INPUT ./g ch2.jpg
+INPUT ./g115.png
+INPUT ./g115.png
+INPUT ./g115.png
+INPUT ./g115.png
+INPUT ./g115.png
 INPUT ./breadboard.png
 INPUT ./breadboard.png
 INPUT ./breadboard.png

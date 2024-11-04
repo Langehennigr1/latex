@@ -22,79 +22,98 @@
 
     \subsection{Objective}
     The aim of this lab is to gain experience with digital oscilloscopes and to better understand how they can be used to take measurements. In particular, the oscilloscope will be used to measure the time constant of a capacitor.
-
-    \subsection{Theory}\label{theory}
     
 
 \section{Procedure}
     This section details both the inital experimentation with the oscilloscope in order to become familiar with it and the subsequent experiment with the charging and discharging of a capacitor.\\ % rewrite!!
     For both experiments, a RIGOL DS1104-Z oscilloscope and DG1022-Z function generator (pictured in figure \ref{oscnfunc1}) were used.
 
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.5\textwidth]{WIN_20240927_13_48_12_Pro.jpg} %crop
-        \caption{The oscilloscope (top) connected to the function generator (bottom) via coaxial cable.}
-        \label{oscnfunc1}
+    \begin{figure}[h]
+        \begin{minipage}{\textwidth/2}
+            \includegraphics[width=\linewidth]{WIN_20240927_13_48_12_Pro.jpg}
+            \caption{The oscilloscope (top) connected to the function generator (bottom) via coaxial cable.}
+            \label{oscnfunc}
+        \end{minipage}
+        \begin{minipage}{\textwidth/2}
+            \includegraphics[width=\linewidth]{WIN_20240927_13_51_59_Pro.jpg}
+            \caption{The interface of the function generator.}
+            \label{funcgen}
+        \end{minipage}
     \end{figure}
 
     \subsection{Oscilloscope basics}
-        In order to generate a signal to view in the oscilloscope, the function generator was configured as shown in figure \ref{funcgen1} to produce a 2.5 V, 123 Hz sine wave.
-
-        \begin{figure}
-            \centering
-            \includegraphics[width=0.5\textwidth]{WIN_20240927_13_51_59_Pro.jpg}
-            \caption{The interface of the function generator.}
-            \label{funcgen1}
-        \end{figure}
+        In order to generate a signal to view in the oscilloscope, the function generator was configured as shown in figure \ref{funcgen} to produce a 2.5 V, 123 Hz sine wave.
 
         \subsubsection{Exercises}
             A series of exercises were carried out to gain familiarity with the oscilloscope:
 
             \begin{enumerate}[label=(\alph*)]
-                \item The function generator was set to produce an 80 Hz sine wave.
+                \item The function generator was set to produce an 80 Hz sine wave (fig. \ref{exa}).
                 \begin{figure}[p]
-                    \centering
-                    \includegraphics[width=0.2\linewidth]{a.jpg}
+                    \begin{minipage}{\textwidth/2}
+                        \includegraphics[width=\linewidth]{a.jpg}
+                        \caption{Exercise A}
+                        \label{exa}
+                    \end{minipage}
+                    \begin{minipage}{\textwidth/2}
+                        \includegraphics[width=\linewidth]{b.jpg}
+                        \caption{Exercise B}
+                        \label{exb}
+                    \end{minipage}
                 \end{figure}
 
-                \item The amplitude was changed.
+                \item The amplitude was changed (fig. \ref{exb}).
+                
+                \item The frequency was increased to 800 Hz (fig. \ref{exc}).
                 \begin{figure}[p]
                     \centering
-                    \includegraphics[width=0.2\linewidth]{b.jpg}
+                    \includegraphics[width=\textwidth/2]{c.jpg}
+                    \caption{Exercise C}
+                    \label{exc}
                 \end{figure}
                 
-                \item The frequency was increased to 800 Hz.
-                \begin{figure}[p]
-                    \centering
-                    \includegraphics[width=0.2\linewidth]{c.jpg}
-                \end{figure}
-                
-                \item A DC offset was added.
+                \item A DC offset was added (fig. \ref{exd}).
                 \begin{figure}[p]
                     \begin{subfigure}{\textwidth/2}
                         \includegraphics[width=\linewidth]{d v.jpg}
+                        \caption{}
                     \end{subfigure}
                     \begin{subfigure}{\textwidth/2}
                         \includegraphics[width=\linewidth]{d offset.jpg}
+                        \caption{}
                     \end{subfigure}
-                    \caption{}
+                    \caption{Exercise D}
+                    \label{exd}
                 \end{figure}
                 
-                \item A 80 Hz square wave was produced.
-                \begin{figure}
-                    \includegraphics[width=\textwidth/2]{e.jpg}
-                    \caption{}
+                \item A 80 Hz square wave was produced (fig. \ref{exe})
+                \begin{figure}[p]
+                    \begin{minipage}{\textwidth/2}
+                        \includegraphics[width=\linewidth]{e.jpg}
+                        \caption{Exercise E}
+                        \label{exe}
+                    \end{minipage}
+                    \begin{minipage}{\textwidth/2}
+                        \includegraphics[width=\linewidth]{f.jpg}
+                        \caption{Exercise F}
+                        \label{exf}
+                    \end{minipage}
                 \end{figure}
 
-                \item The frequency was increased to 8 kHz.
-                \begin{figure}
-                    \includegraphics[width=\textwidth/2]{f.jpg}
-                    \caption{}
-                \end{figure}
+                \item The frequency was increased to 8 kHz (fig. \ref{exf}).
 
-                \item A 200 Hz sine wave was produced and fed into both CH1 \& CH2 of the oscilloscope.
-                \begin{figure}
-                    
+                \item A 200 Hz sine wave was produced and fed into both CH1 \& CH2 of the oscilloscope (fig. \ref{exg}).
+                \begin{figure}[p]
+                    \begin{subfigure}{\textwidth/2}
+                        \includegraphics[width=\linewidth]{g ch1.jpg}
+                        \caption{CH1}
+                    \end{subfigure}
+                    \begin{subfigure}{\textwidth/2}
+                        \includegraphics[width=\linewidth]{g ch2.jpg}
+                        \caption{CH2}
+                    \end{subfigure}
+                    \caption{Exercise G}
+                    \label{exg}
                 \end{figure}
             \end{enumerate}
 
@@ -110,7 +129,7 @@
         
 
         %kinda fucked
-        \begin{figure}[h]
+        \begin{figure}[H]
             \begin{subfigure}{\textwidth/3}
                 \includegraphics[width=\linewidth]{g115.png}
                 \caption{}
@@ -131,9 +150,9 @@
 \section{Results}
     The time constant $\tau$ of a capacitor is the time it takes for the capacitor to charge to $V_\mathrm{max}(1-e^-1)$ or discharge to $V_\mathrm{max}e^{-1}$. From this, it follows that if $V_\mathrm{max}$ is known, one can calculate $V(\tau)$ charging \& discharging and measure the time it takes to reach that voltage.
     For the constructed circuit, this was 2.56 V charging and 1.49 V discharging.
-    In order to measure the time it takes to reach these voltages with the oscilloscope, the horizontal cursors were used to measure voltage relative to the minimum of the signal and then the vertical cursors were used to measure the time from the start of the charging/discharging cycle to the point where the horizontal cursors intersect the signal, as can be seen in figure \ref{measuringtau}
+    In order to measure the time it takes to reach these voltages with the oscilloscope, the horizontal cursors were used to measure voltage relative to the minimum of the signal and then the vertical cursors were used to measure the time from the start of the charging/discharging cycle to the point where the horizontal cursors intersect the signal, as can be seen in figure \ref{measuringtau}\\
 
-        \begin{figure}
+        \begin{figure}[h]
             \begin{subfigure}{0.5\linewidth}
                 \includegraphics[width=\linewidth]{tau charging.jpg}
                 \caption{}
@@ -146,16 +165,12 @@
             \label{measuringtau}
         \end{figure}
 
-    \begin{table}[h]
-        \centering
-        \begin{tabular}{@{}l|r@{}}
-            \toprule
-            $\tau_\mathrm{charging}$ & 116.0 $\mu$s \\
-            $\tau_\mathrm{discharging}$ & 120.0 $\mu$s \\
-            \bottomrule
-        \end{tabular}
-    \end{table}
+    Through this method, two figures for $\tau$ were obtained, 116.0 $\mu$s charging \& 120.0 $\mu$s, which differ from each other by 3\%.
+
 
 \section{Conclusion}
+    The theoretical time constant can be calculated by multiplying the resistance \& capacitance of the circuit to get 101 $\mu$s. This gives us a percent error of 16\%.\\
+    
+    The source of this error was not initally apparent. Deterioration of the components, for example, can be ruled out because the nominal resistance \& capacitance (1 k$\Omega$ \& 100 nF) gives a theoretical $\tau$ of 100 $\mu$s, still leaving at best a 16 $\mu$s discrepancy. This could perhaps be attributed to the other components in the circuit, particularly the LEDs as they do not follow Ohm's law.
 
 \end{document}
