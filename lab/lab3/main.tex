@@ -52,43 +52,57 @@
 
             \begin{enumerate}[label=(\alph*)]
                 \item The function generator was set to produce an 80 Hz sine wave.
-                \begin{figure}[h]
+                \begin{figure}[p]
                     \centering
                     \includegraphics[width=0.2\linewidth]{a.jpg}
                 \end{figure}
 
                 \item The amplitude was changed.
-                \begin{figure}[h]
+                \begin{figure}[p]
                     \centering
                     \includegraphics[width=0.2\linewidth]{b.jpg}
                 \end{figure}
                 
                 \item The frequency was increased to 800 Hz.
-                \begin{figure}[h]
+                \begin{figure}[p]
                     \centering
                     \includegraphics[width=0.2\linewidth]{c.jpg}
                 \end{figure}
                 
                 \item A DC offset was added.
-                \begin{figure}[h]
-                    \centering
-                    \begin{subfigure}{0.4\textwidth}
+                \begin{figure}[p]
+                    \begin{subfigure}{\textwidth/2}
                         \includegraphics[width=\linewidth]{d v.jpg}
                     \end{subfigure}
-                    \begin{subfigure}{0.4\textwidth}
+                    \begin{subfigure}{\textwidth/2}
                         \includegraphics[width=\linewidth]{d offset.jpg}
                     \end{subfigure}
+                    \caption{}
                 \end{figure}
+                
                 \item A 80 Hz square wave was produced.
+                \begin{figure}
+                    \includegraphics[width=\textwidth/2]{e.jpg}
+                    \caption{}
+                \end{figure}
+
                 \item The frequency was increased to 8 kHz.
+                \begin{figure}
+                    \includegraphics[width=\textwidth/2]{f.jpg}
+                    \caption{}
+                \end{figure}
+
                 \item A 200 Hz sine wave was produced and fed into both CH1 \& CH2 of the oscilloscope.
+                \begin{figure}
+                    
+                \end{figure}
             \end{enumerate}
 
 
 
 
     \subsection{Charging \& discharging of a capacitor}
-        Thus far, only the output of the function generator had been investigated using the oscilloscope. In actual practice, oscilloscopes are used in a similar manner to a voltmeter---that is, they are connected in parallel to the component across which the voltage is to be measured. \\% grammar?
+        Thus far, only the output of the function generator had been investigated using the oscilloscope. In actual practice, oscilloscopes are used in a similar manner to a voltmeter---that is, they are connected in parallel to the component across which the voltage is to be measured.\\ % grammar?
         For this portion of the experiment, a circuit would be constructed on a breadboard consisting of two parallel LEDs, a 997 $\Omega$ resistor, and 100.9 nF capacitor in series with the output of the function generator as shown in figure \ref{circuitry}.
         The function generator was configured to produce an 8 V, 500 Hz square wave which was output to both the circuit \& the first channel of the oscilloscope by means of a Tee-splitter.
         Across the capacitor was also placed a probe, which was connected to the second channel of the oscilloscope.\\
@@ -97,46 +111,47 @@
 
         %kinda fucked
         \begin{figure}[h]
-            \centering
-            \begin{minipage}{0.3\textwidth}
-                    \includegraphics[width=0.8\linewidth]{g115.png}
-                    \caption{Idealized circuit diagram.}
-            \end{minipage}
-            \begin{minipage}{0.3\textwidth}
-                    \includegraphics[width=0.8\linewidth]{breadboard.png}
-                    \caption{Rough sketch of breadboard circuit.}
-            \end{minipage}
-            \begin{minipage}{0.3\textwidth}
-                    \includegraphics[width=0.8\linewidth]{circuit.jpg}
-                    \caption{Circuit as assembled on breadboard.}
-            \end{minipage}
+            \begin{subfigure}{\textwidth/3}
+                \includegraphics[width=\linewidth]{g115.png}
+                \caption{}
+            \end{subfigure}
+            \begin{subfigure}{\textwidth/3}
+                \includegraphics[width=\linewidth]{breadboard.png}
+                \caption{}
+            \end{subfigure}
+            \begin{subfigure}{\textwidth/3}
+                \includegraphics[width=\linewidth]{circuit.jpg}
+                \caption{}
+            \end{subfigure}
+            \caption{The circuit used to charge \& discharge the capacitor (a) as an ideal circuit, (b) sketched, and (c) assembled.}
             \label{circuitry}
         \end{figure}
 
 
 \section{Results}
-    \subsection{Preliminary calculation}
-        The time constant $\tau$ of a capacitor is the time it takes for the capacitor to charge to $V_\mathrm{max}(1-e^-1)$ or discharge to $V_\mathrm{max}e^{-1}$. From this, it follows that if $V_\mathrm{max}$ is known, one can calculate $V(\tau)$ charging \& discharging and measure the time it takes to reach that voltage.
-        For the constructed circuit, this was 2.56 V charging and 1.49 V discharging.
-    
-    \subsection{Measurements}
-        In order to
+    The time constant $\tau$ of a capacitor is the time it takes for the capacitor to charge to $V_\mathrm{max}(1-e^-1)$ or discharge to $V_\mathrm{max}e^{-1}$. From this, it follows that if $V_\mathrm{max}$ is known, one can calculate $V(\tau)$ charging \& discharging and measure the time it takes to reach that voltage.
+    For the constructed circuit, this was 2.56 V charging and 1.49 V discharging.
+    In order to measure the time it takes to reach these voltages with the oscilloscope, the horizontal cursors were used to measure voltage relative to the minimum of the signal and then the vertical cursors were used to measure the time from the start of the charging/discharging cycle to the point where the horizontal cursors intersect the signal, as can be seen in figure \ref{measuringtau}
 
         \begin{figure}
-            \begin{minipage}{0.45\textwidth}
-                \includegraphics[width=0.8\linewidth]{}
-            \end{minipage}
-            \begin{minipage}{0.45\textwidth}
-                
-            \end{minipage}
+            \begin{subfigure}{0.5\linewidth}
+                \includegraphics[width=\linewidth]{tau charging.jpg}
+                \caption{}
+            \end{subfigure}
+            \begin{subfigure}{0.5\linewidth}
+                \includegraphics[width=\linewidth]{tau discharging.jpg}
+                \caption{}
+            \end{subfigure}
+            \caption{Measurement of $\tau$ for (a) charging \& (b) discharging.}
+            \label{measuringtau}
         \end{figure}
 
     \begin{table}[h]
         \centering
-        \begin{tabular}{@{}l|lr@{}}
+        \begin{tabular}{@{}l|r@{}}
             \toprule
-            $\tau_\mathrm{charging}$ & 116.0 $\mu$s & The time it took for the capacitor to charge to $$\\
-            $\tau_\mathrm{discharging}$ & 120.0 $\mu$s & a \\
+            $\tau_\mathrm{charging}$ & 116.0 $\mu$s \\
+            $\tau_\mathrm{discharging}$ & 120.0 $\mu$s \\
             \bottomrule
         \end{tabular}
     \end{table}

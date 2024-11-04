@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.15)  3 NOV 2024 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.15)  4 NOV 2024 13:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -448,8 +448,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count320
 \l__pdf_internal_box=\box66
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -470,7 +469,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
-(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count321
 \scratchdimen=\dimen286
@@ -527,6 +526,7 @@ Package todonotes Warning: The length marginparwidth is less than 2cm and will m
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 14.
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -539,39 +539,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 17.
-
-LaTeX Warning: Reference `oscnfunc1' on page 1 undefined on input line 31.
-
-<WIN_20240927_13_48_12_Pro.jpg, id=7, 2457.18pt x 1382.16376pt>
+<WIN_20240927_13_48_12_Pro.jpg, id=48, 2457.18pt x 1382.16376pt>
 File: WIN_20240927_13_48_12_Pro.jpg Graphic file (type jpg)
 <use WIN_20240927_13_48_12_Pro.jpg>
 Package pdftex.def Info: WIN_20240927_13_48_12_Pro.jpg  used on input line 35.
 (pdftex.def)             Requested size: 221.78923pt x 124.7479pt.
-
-LaTeX Warning: Reference `funcgen1' on page 1 undefined on input line 41.
-
-<WIN_20240927_13_51_59_Pro.jpg, id=8, 2457.18pt x 1382.16376pt>
+<WIN_20240927_13_51_59_Pro.jpg, id=50, 2457.18pt x 1382.16376pt>
 File: WIN_20240927_13_51_59_Pro.jpg Graphic file (type jpg)
 <use WIN_20240927_13_51_59_Pro.jpg>
 Package pdftex.def Info: WIN_20240927_13_51_59_Pro.jpg  used on input line 45.
 (pdftex.def)             Requested size: 221.78923pt x 124.7479pt.
-<a.jpg, id=9, 2457.18pt x 1382.16376pt>
+<a.jpg, id=51, 2457.18pt x 1382.16376pt>
 File: a.jpg Graphic file (type jpg)
 <use a.jpg>
 Package pdftex.def Info: a.jpg  used on input line 57.
 (pdftex.def)             Requested size: 88.71434pt x 49.89915pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<b.jpg, id=10, 2457.18pt x 1382.16376pt>
+<b.jpg, id=52, 2457.18pt x 1382.16376pt>
 File: b.jpg Graphic file (type jpg)
 <use b.jpg>
 Package pdftex.def Info: b.jpg  used on input line 63.
 (pdftex.def)             Requested size: 88.71434pt x 49.89915pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<c.jpg, id=11, 2457.18pt x 1382.16376pt>
+<c.jpg, id=53, 2457.18pt x 1382.16376pt>
 File: c.jpg Graphic file (type jpg)
 <use c.jpg>
 Package pdftex.def Info: c.jpg  used on input line 69.
@@ -582,110 +570,106 @@ Package pdftex.def Info: c.jpg  used on input line 69.
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<d v.jpg, id=32, 2457.18pt x 1382.16376pt>
+[2 <./WIN_20240927_13_48_12_Pro.jpg> <./WIN_20240927_13_51_59_Pro.jpg> <./a.jpg> <./b.jpg>]
+<d v.jpg, id=75, 2457.18pt x 1382.16376pt>
 File: d v.jpg Graphic file (type jpg)
 <use d v.jpg>
-Package pdftex.def Info: d v.jpg  used on input line 76.
-(pdftex.def)             Requested size: 177.42868pt x 99.79831pt.
-<d offset.jpg, id=33, 2457.18pt x 1382.16376pt>
+Package pdftex.def Info: d v.jpg  used on input line 75.
+(pdftex.def)             Requested size: 221.78923pt x 124.7479pt.
+<d offset.jpg, id=76, 2457.18pt x 1382.16376pt>
 File: d offset.jpg Graphic file (type jpg)
 <use d offset.jpg>
-Package pdftex.def Info: d offset.jpg  used on input line 79.
-(pdftex.def)             Requested size: 177.42868pt x 99.79831pt.
+Package pdftex.def Info: d offset.jpg  used on input line 78.
+(pdftex.def)             Requested size: 221.78923pt x 124.7479pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 74--80
+[][] [] 
+ []
 
+<e.jpg, id=77, 2457.18pt x 1382.16376pt>
+File: e.jpg Graphic file (type jpg)
+<use e.jpg>
+Package pdftex.def Info: e.jpg  used on input line 85.
+(pdftex.def)             Requested size: 221.78923pt x 124.7479pt.
+<f.jpg, id=78, 2457.18pt x 1382.16376pt>
+File: f.jpg Graphic file (type jpg)
+<use f.jpg>
+Package pdftex.def Info: f.jpg  used on input line 91.
+(pdftex.def)             Requested size: 221.78923pt x 124.7479pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 92.
+(Font)              <7> on input line 106.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 92.
+(Font)              <5> on input line 106.
 
-LaTeX Warning: Reference `circuitry' on page 2 undefined on input line 92.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--95
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
 
  []
 
-<g115.png, id=34, 193.47281pt x 175.40532pt>
+<g115.png, id=80, 193.47281pt x 175.40532pt>
 File: g115.png Graphic file (type png)
 <use g115.png>
-Package pdftex.def Info: g115.png  used on input line 102.
-(pdftex.def)             Requested size: 106.46031pt x 96.5187pt.
-<breadboard.png, id=36, 293.4162pt x 198.0198pt>
+Package pdftex.def Info: g115.png  used on input line 115.
+(pdftex.def)             Requested size: 147.85948pt x 134.05347pt.
+<breadboard.png, id=82, 293.4162pt x 198.0198pt>
 File: breadboard.png Graphic file (type png)
 <use breadboard.png>
-Package pdftex.def Info: breadboard.png  used on input line 106.
-(pdftex.def)             Requested size: 106.46031pt x 71.84605pt.
-
-Underfull \hbox (badness 1199) in paragraph at lines 107--107
-[]\OT1/cmr/m/n/10 Figure 5: |Rough sketch of
- []
-
-<circuit.jpg, id=37, 2457.18pt x 1382.16376pt>
+Package pdftex.def Info: breadboard.png  used on input line 119.
+(pdftex.def)             Requested size: 147.85948pt x 99.7892pt.
+<circuit.jpg, id=83, 2457.18pt x 1382.16376pt>
 File: circuit.jpg Graphic file (type jpg)
 <use circuit.jpg>
-Package pdftex.def Info: circuit.jpg  used on input line 110.
-(pdftex.def)             Requested size: 106.46031pt x 59.87477pt.
+Package pdftex.def Info: circuit.jpg  used on input line 123.
+(pdftex.def)             Requested size: 147.85948pt x 83.15823pt.
+
+Overfull \hbox (4.4444pt too wide) in paragraph at lines 114--126
+[][] [] [] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<tau charging.jpg, id=85, 2457.18pt x 1382.16376pt>
+File: tau charging.jpg Graphic file (type jpg)
+<use tau charging.jpg>
+Package pdftex.def Info: tau charging.jpg  used on input line 138.
+(pdftex.def)             Requested size: 221.78923pt x 124.7479pt.
+<tau discharging.jpg, id=86, 2457.18pt x 1382.16376pt>
+File: tau discharging.jpg Graphic file (type jpg)
+<use tau discharging.jpg>
+Package pdftex.def Info: tau discharging.jpg  used on input line 142.
+(pdftex.def)             Requested size: 221.78923pt x 124.7479pt.
 
-c:/Users/rayla/Documents/latex/lab/lab3/main.tex:127: LaTeX Error: File `' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 ...  \includegraphics[width=0.8\linewidth]{}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 137--145
+[][] [] 
+ []
 
 
 
-[2 <./WIN_20240927_13_48_12_Pro.jpg> <./WIN_20240927_13_51_59_Pro.jpg>]
+[3]
 
-[3 <./a.jpg> <./b.jpg>]
+[4 <./c.jpg> <./d v.jpg> <./d offset.jpg> <./e.jpg> <./f.jpg>]
 
-[4 <./c.jpg> <./d v.jpg> <./d offset.jpg> <./g115.png> <./breadboard.png> <./circuit.jpg>] (./main.aux)
+[5 <./g115.png> <./breadboard.png> <./circuit.jpg> <./tau charging.jpg> <./tau discharging.jpg>] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4E4EF39BE452DB5E850A675CBCD08FB2;1480.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: BF18BEF93FF7D3BA88272C811037A933;1186.
  ) 
 Here is how much of TeX's memory you used:
- 21999 strings out of 473579
- 412446 string characters out of 5732256
- 797682 words of memory out of 5000000
- 44537 multiletter control sequences out of 15000+600000
- 562670 words of font info for 51 fonts, out of 8000000 for 9000
+ 22020 strings out of 473579
+ 412895 string characters out of 5732256
+ 798194 words of memory out of 5000000
+ 44549 multiletter control sequences out of 15000+600000
+ 562969 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,131p,1185b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (4 pages, 22313895 bytes).
+ 117i,10n,131p,1185b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (5 pages, 33689886 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 33 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

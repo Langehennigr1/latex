@@ -214,6 +214,9 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./main.aux
+INPUT ./main.aux
+INPUT main.aux
 OUTPUT main.aux
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -223,8 +226,14 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-OUTPUT main.out
+INPUT ./main.out
+INPUT ./main.out
+INPUT main.out
+INPUT main.out
 OUTPUT main.pdf
+INPUT ./main.out
+INPUT ./main.out
+OUTPUT main.out
 INPUT c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -240,17 +249,17 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_48_12_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
+INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_48_12_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
-INPUT ./WIN_20240927_13_51_59_Pro.jpg
 INPUT ./a.jpg
 INPUT ./a.jpg
 INPUT ./a.jpg
@@ -277,11 +286,22 @@ INPUT ./d offset.jpg
 INPUT ./d offset.jpg
 INPUT ./d offset.jpg
 INPUT ./d offset.jpg
+INPUT ./e.jpg
+INPUT ./e.jpg
+INPUT ./e.jpg
+INPUT ./e.jpg
+INPUT ./e.jpg
+INPUT ./f.jpg
+INPUT ./f.jpg
+INPUT ./f.jpg
+INPUT ./f.jpg
+INPUT ./f.jpg
 INPUT ./g115.png
 INPUT ./g115.png
 INPUT ./g115.png
 INPUT ./g115.png
 INPUT ./g115.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT ./breadboard.png
 INPUT ./breadboard.png
 INPUT ./breadboard.png
@@ -292,7 +312,16 @@ INPUT ./circuit.jpg
 INPUT ./circuit.jpg
 INPUT ./circuit.jpg
 INPUT ./circuit.jpg
-INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/.tex
+INPUT ./tau charging.jpg
+INPUT ./tau charging.jpg
+INPUT ./tau charging.jpg
+INPUT ./tau charging.jpg
+INPUT ./tau charging.jpg
+INPUT ./tau discharging.jpg
+INPUT ./tau discharging.jpg
+INPUT ./tau discharging.jpg
+INPUT ./tau discharging.jpg
+INPUT ./tau discharging.jpg
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
@@ -303,6 +332,7 @@ INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
