@@ -1,29 +1,33 @@
 \documentclass{cheatsheet}
 
 \begin{document}
+	\begin{gather*}
+		\left|\frac{\partial(x,y,z)}{\partial(r,\theta,\phi)}\right| = r^2 \sin \theta \\
+		\left| \frac{\partial(x,y)}{\partial(r,\theta)} \right| = r
+	\end{gather*}
+
+	\section{Conservation of Momentum}
+	\begin{gather}
+		\vec p = m\vec v	\tag{momentum}\\
+		\dot{\vec P} = \vec F_\mathrm{ext} \tag{3rd law}
+	\end{gather}
+	\subsection{Collisions}
+		An \emph{elastic} collision conserves kinetic energy.
+		\[
+			m_1\vec v_1 + m_2\vec v_2 = m_1\vec v_1\,' + m_2\vec v_2\,'
+		\]
+		An \emph{inelastic} collision does not.
+		\[
+			m_1\vec v_1 + m_2\vec v_2 = m\vec v\,'
+		\]
 	\section{Changing Mass idk}
 	\section{Center of Mass}
-	\begin{subequations}
-		\begin{equation*}
-			\begin{aligned}
-				M_\mathrm{tot}\vec R &= \int \vec r \mathrm{d}m \\
-				\Rightarrow \vec{R} &= \frac{1}{M}\int r \rho(\vec{r}) \mathrm{d}V\\
-			\end{aligned}
-		\end{equation*}
-		where
-		\begin{equation*}
-			M = \int \rho(\vec r) \mathrm{d}V
-		\end{equation*}	
-	\end{subequations}
-	
-	\section{Rotation}
-		\subsection{Momentum}
-			adawdwadaw
-		\subsection{Moment of Inertia}
-			\begin{subequations}
-				\begin{equation*}
-					I = \int \vec{r}^{\,2}_\perp \mathrm{d}m
-				\end{equation*}
-			\end{subequations}
+	\begin{gather*}
+		M = \int \rho \mathrm{d}V	\tag{total mass}\\
+		\vec R =  \frac{1}{M_\mathrm{tot}}  \int \vec r \mathrm{d}m \tag{location of CoM}\raisetag{-6pt}\\
+	\intertext{$\mathrm{d}m$ can usually be rewritten in terms of $\mathrm{d}V$}\\
+		\vec R = \frac{1}{M_\mathrm{tot}} \int \vec r \rho(\vec r) \mathrm{d}V
+	\end{gather*}
+	Look for symmetries by which you can substitute $\vec R$ and $\vec r$ for scalars.
 
 \end{document}
