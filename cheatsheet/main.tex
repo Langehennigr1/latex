@@ -1,21 +1,24 @@
 \documentclass{cheatsheet}
-\usepackage[fleqn]{amsmath}
+
+\usepackage[fleqn]{mathtools}
 \usepackage{esdiff}
 \setlength{\mathindent}{0pt}
 
 \begin{document}
+	\part*{Formulae}
 	\section{Miscellanea}	
 		\begin{gather*}
 			\left|\frac{\partial(x,y,z)}{\partial(r,\theta,\phi)}\right| = r^2 \sin \theta \\
 			\left| \frac{\partial(x,y)}{\partial(r,\theta)} \right| = \left| \frac{\partial(x,y,z)}{\partial(r,\phi,z)} \right| = r\\
 			\int \frac{\mathrm{d}x}{x} = \ln|x| + C\\
 			\sin\theta \xrightarrow{\diff{}{\theta}} \cos\theta \rightarrow -\sin\theta\\
+			\xrightleftharpoons[test]{test}
 		\end{gather*}
 	\subsection{Derivatives}
 		\begin{gather*}
 			\diff{(uv)}{x} = u'v + uv'	\\
 			\diff{(u/v)}{x} = \frac{u'v - uv'}{v^2}	\\
-			\diff{\left( u(v) \right)}{x} = 
+			\diff{( u(v) )}{x} = u'(v)v'
 		\end{gather*}
 	\subsection{Kinematics}
 		\begin{gather*}
@@ -26,12 +29,17 @@
 			v_f = \sqrt{{v_i}^2 + 2a\Delta x}	\tag{$v_f$}
 		\end{gather*}
 
-	\section{Conservation of Momentum}
+	\section{Momentum}
 	\begin{gather}
 		\vec p = m\vec v	\tag{momentum}\\
 		\vec\ell = I\vec\omega = \vec r \times \vec p	\tag{rot. form}\\
 		\dot{\vec P} = \vec F_\mathrm{ext} \tag{3rd law}\\
-		\dot{\vec\ell} = \vec\tau = I\vec\alpha= \vec r \times \vec F	\tag{rot. form}
+		\dot{\vec\ell} = \vec\tau = I\vec\alpha= \vec r \times \vec F	\tag{rot. form}\\
+		\begin{split}
+				\Delta\vec P &= \vec J	\\
+			&= \int \vec F 
+		\end{split}
+	\\		
 	\end{gather}
 		\subsection{Collisions}
 			An \emph{elastic} collision conserves kinetic energy.
@@ -70,4 +78,7 @@
 		\subsection{Perpendicular Axis Theorem}
 			For \emph{planar lamina} (flat, plate-like objects)
 			\[ I_z = I_x + I_y \]
+	
+	\part*{Examples}
+
 \end{document}
