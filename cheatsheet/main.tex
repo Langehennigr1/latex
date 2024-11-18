@@ -1,33 +1,73 @@
 \documentclass{cheatsheet}
+\usepackage[fleqn]{amsmath}
+\usepackage{esdiff}
+\setlength{\mathindent}{0pt}
 
 \begin{document}
-	\begin{gather*}
-		\left|\frac{\partial(x,y,z)}{\partial(r,\theta,\phi)}\right| = r^2 \sin \theta \\
-		\left| \frac{\partial(x,y)}{\partial(r,\theta)} \right| = r
-	\end{gather*}
+	\section{Miscellanea}	
+		\begin{gather*}
+			\left|\frac{\partial(x,y,z)}{\partial(r,\theta,\phi)}\right| = r^2 \sin \theta \\
+			\left| \frac{\partial(x,y)}{\partial(r,\theta)} \right| = \left| \frac{\partial(x,y,z)}{\partial(r,\phi,z)} \right| = r\\
+			\int \frac{\mathrm{d}x}{x} = \ln|x| + C\\
+			\sin\theta \xrightarrow{\diff{}{\theta}} \cos\theta \rightarrow -\sin\theta\\
+		\end{gather*}
+	\subsection{Derivatives}
+		\begin{gather*}
+			\diff{(uv)}{x} = u'v + uv'	\\
+			\diff{(u/v)}{x} = \frac{u'v - uv'}{v^2}	\\
+			\diff{\left( u(v) \right)}{x} = 
+		\end{gather*}
+	\subsection{Kinematics}
+		\begin{gather*}
+			\vec v(t) = \vec v_0 + \vec at 	\tag{velocity}\\
+			\vec \omega(t) = \vec\omega_0 + \vec\alpha t	\tag{rot. form}\\
+			\vec x(t) = \vec x_0 + \vec vt + \frac{1}{2}\vec a t^2	\tag{displacement}\\
+			\vec\theta(t) = \vec\theta_0 + \vec\omega t + \frac{1}{2}\alpha t^2	\tag{rot. form}\\
+			v_f = \sqrt{{v_i}^2 + 2a\Delta x}	\tag{$v_f$}
+		\end{gather*}
 
 	\section{Conservation of Momentum}
 	\begin{gather}
 		\vec p = m\vec v	\tag{momentum}\\
-		\dot{\vec P} = \vec F_\mathrm{ext} \tag{3rd law}
+		\vec\ell = I\vec\omega = \vec r \times \vec p	\tag{rot. form}\\
+		\dot{\vec P} = \vec F_\mathrm{ext} \tag{3rd law}\\
+		\dot{\vec\ell} = \vec\tau = I\vec\alpha= \vec r \times \vec F	\tag{rot. form}
 	\end{gather}
-	\subsection{Collisions}
-		An \emph{elastic} collision conserves kinetic energy.
-		\[
-			m_1\vec v_1 + m_2\vec v_2 = m_1\vec v_1\,' + m_2\vec v_2\,'
-		\]
-		An \emph{inelastic} collision does not.
-		\[
-			m_1\vec v_1 + m_2\vec v_2 = m\vec v\,'
-		\]
-	\section{Changing Mass idk}
+		\subsection{Collisions}
+			An \emph{elastic} collision conserves kinetic energy.
+			\[
+				m_1\vec v_1 + m_2\vec v_2 = m_1\vec v_1\,' + m_2\vec v_2\,'
+			\]
+			An \emph{inelastic} collision does not.
+			\[
+				m_1\vec v_1 + m_2\vec v_2 = m\vec v\,'
+			\]
+	\section{Changing Mass}
+		\subsection{Rockets}
+			\begin{gather*}
+				\vec F_\mathrm{th} = -\dot{m}\vec v_\mathrm{ex}		\tag{thrust}\\
+				\vec v(t) = \vec v_0 + \vec v_\mathrm{ex}\ln\left( \frac{m_0}{m(t)} \right)	\tag{$\Delta V$}
+			\end{gather*}
 	\section{Center of Mass}
 	\begin{gather*}
+		\vec R = \frac{1}{M}\sum_{i=1}^N m_i \vec r_i	\tag{CM summation}\raisetag{-10pt}\\
 		M = \int \rho \mathrm{d}V	\tag{total mass}\\
-		\vec R =  \frac{1}{M_\mathrm{tot}}  \int \vec r \mathrm{d}m \tag{location of CoM}\raisetag{-6pt}\\
-	\intertext{$\mathrm{d}m$ can usually be rewritten in terms of $\mathrm{d}V$}\\
-		\vec R = \frac{1}{M_\mathrm{tot}} \int \vec r \rho(\vec r) \mathrm{d}V
+		\vec R =  \frac{1}{M}  \int \vec r \mathrm{d}m \tag{CM integral}\raisetag{-6pt}\\
+	\intertext{$\mathrm{d}m$ can usually be rewritten in terms of $\mathrm{d}V$}
+		\vec R = \frac{1}{M} \int \vec r \rho(\vec r) \mathrm{d}V
 	\end{gather*}
 	Look for symmetries by which you can substitute $\vec R$ and $\vec r$ for scalars.
 
+	\section{Moment of Inertia}
+	\begin{gather*}
+		\sum_{i=1}^{N} = m_i r^2_\perp \tag{summation}\\
+		I = \int r^2_\perp \mathrm{d}m	\tag{integral}
+	\end{gather*}
+		\subsection{Parallel Axis Theorem}
+			\[ I = I_\mathrm{CM} + Md^2 \]
+			where $I \parallel I_\mathrm{CM}$ and $d$ is the distance between $I$ \& $I_\mathrm{CM}$
+
+		\subsection{Perpendicular Axis Theorem}
+			For \emph{planar lamina} (flat, plate-like objects)
+			\[ I_z = I_x + I_y \]
 \end{document}
