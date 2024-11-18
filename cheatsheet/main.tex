@@ -1,18 +1,23 @@
 \documentclass{cheatsheet}
-
-\usepackage[fleqn]{mathtools}
+\usepackage{amsmath}
 \usepackage{esdiff}
 \setlength{\mathindent}{0pt}
 
 \begin{document}
-	\part*{Formulae}
+
+\part*{Formulae}
 	\section{Miscellanea}	
 		\begin{gather*}
 			\left|\frac{\partial(x,y,z)}{\partial(r,\theta,\phi)}\right| = r^2 \sin \theta \\
 			\left| \frac{\partial(x,y)}{\partial(r,\theta)} \right| = \left| \frac{\partial(x,y,z)}{\partial(r,\phi,z)} \right| = r\\
 			\int \frac{\mathrm{d}x}{x} = \ln|x| + C\\
 			\sin\theta \xrightarrow{\diff{}{\theta}} \cos\theta \rightarrow -\sin\theta\\
-			\xrightleftharpoons[test]{test}
+			%\xrightleftharpoons[d]{test}
+		\end{gather*}
+	\subsection{Trigonometry}
+		\begin{gather*}
+			\frac{\sin a}{A} = \frac{\sin b}{B} = \frac{\sin c}{C}	\tag{law of sines}\\
+			C = \sqrt{A^2 + B^2 - 2AB\cos(c)}	\tag{law of cosines}
 		\end{gather*}
 	\subsection{Derivatives}
 		\begin{gather*}
@@ -30,17 +35,23 @@
 		\end{gather*}
 
 	\section{Momentum}
-	\begin{gather}
+	\begin{gather*}
 		\vec p = m\vec v	\tag{momentum}\\
 		\vec\ell = I\vec\omega = \vec r \times \vec p	\tag{rot. form}\\
 		\dot{\vec P} = \vec F_\mathrm{ext} \tag{3rd law}\\
 		\dot{\vec\ell} = \vec\tau = I\vec\alpha= \vec r \times \vec F	\tag{rot. form}\\
 		\begin{split}
-				\Delta\vec P &= \vec J	\\
-			&= \int \vec F 
-		\end{split}
-	\\		
-	\end{gather}
+				\Delta\vec P &= \vec P_f - \vec P_i = \vec J	\\
+			&= \int \vec F \mathrm{d}t	\\
+			&= \vec F_\text{avg}\Delta t
+		\end{split}\tag{impulse}\\
+	\end{gather*}
+		\subsection{Total Angular Momentum}
+		\begin{align*}
+			\vec L &= \sum_{i=1}^{N} \vec\ell_i	\\
+			&= \vec R_\text{CM} \times \vec P_\text{CM}	\tag{$\vec L_\text{orb}$ of CM about axis}\\
+			&+ \sum_{i=1}^{N} r_i' \times \vec p_i'		\tag{$\vec L_\text{spin}$ of body about CM}
+		\end{align*}
 		\subsection{Collisions}
 			An \emph{elastic} collision conserves kinetic energy.
 			\[
@@ -78,6 +89,7 @@
 		\subsection{Perpendicular Axis Theorem}
 			For \emph{planar lamina} (flat, plate-like objects)
 			\[ I_z = I_x + I_y \]
+
 	
 	\part*{Examples}
 
