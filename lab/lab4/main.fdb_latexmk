@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1733002184.00736 "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" "main.pdf" "main" 1733002184.87251 0
+["pdflatex"] 1733005075.75528 "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" "main.pdf" "main" 1733005076.78125 0
   "c:/Users/rayla/.texlive2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731897110 3342927 f714842f12754b6b39550c5d49957019 ""
-  "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" 1733002182 2079 7dd16fdee987250764eec763fbfa0d11 ""
+  "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" 1733005074 2230 e55d3f2555889443148fa53aab4cc2b2 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1729030782 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1729029755 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1729029756 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -30,8 +30,8 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1729028931 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731896307 5521136 47e49b84c41d5ab3414c7e2d0ef6eb2b ""
   "c:/texlive/2024/texmf.cnf" 1729036052 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1733002184 905 67f788f4fc9507a14753f954ab66139e "pdflatex"
-  "main.tex" 1733002182 2079 7dd16fdee987250764eec763fbfa0d11 ""
+  "main.aux" 1733005076 905 67f788f4fc9507a14753f954ab66139e "pdflatex"
+  "main.tex" 1733005074 2230 e55d3f2555889443148fa53aab4cc2b2 ""
   (generated)
   "main.aux"
   "main.log"
