@@ -1,4 +1,4 @@
-\documentclass{cheatsheet}
+\documentclass[tbtags]{cheatsheet}
 \usepackage{amsmath}
 \usepackage{esdiff}
 \setlength{\mathindent}{0pt}
@@ -17,6 +17,27 @@
 			\frac{\sin a}{A} = \frac{\sin b}{B} = \frac{\sin c}{C}	\tag{law of sines}\\
 			C = \sqrt{A^2 + B^2 - 2AB\cos(c)}	\tag{law of cosines}
 		\end{gather*}
+		\subsubsection{Identities}
+			\begin{gather*}
+				\sin^2\theta + \cos^2\theta = 1\\
+				\sin(\theta \pm \frac{\pi}{2}) = \pm\cos\theta\\
+				\begin{split}
+					\sin(\alpha \pm \beta) &= \sin\alpha\cos\beta\\
+					 &\pm \cos\alpha\sin\beta
+				\end{split}\\
+				\begin{split}
+					\cos(\alpha \pm \beta) &= \cos\alpha\cos\beta \\
+					&\mp \sin\alpha\sin\beta
+				\end{split}\\
+				\sin^2 \theta = \frac{1-\cos(2\theta)}{2}\\
+				\cos^2 \theta = \frac{1+\cos(2\theta)}{2}\\
+				\sin(2\theta) = 2\sin\theta\cos\theta\\
+				\begin{split}
+					\cos(2\theta) &= \cos^2\theta - \sin^2\theta\\
+					&= 2\cos^2\theta - 1\\
+					&= 1 - 2\sin^2\theta
+				\end{split}
+			\end{gather*}
 	\subsection{Derivatives}
 		\begin{gather*}
 			\diff{(uv)}{x} = u'v + uv'	\\
@@ -89,24 +110,38 @@
 			\[ I_z = I_x + I_y \]
 
 
-	\section{Line Integrals}
-		\begin{gather*}
-			\begin{split}
-				&\int_{C} f\left( \vec{r}(t) \right) \mathrm{d}s \\
-				&=\int_{a}^b f\left( \vec{r}(t) \right) \left| \vec{r}\,'(t) \right| \mathrm{d}t
-			\end{split}\tag{scalar}\\
-			\begin{split}
-				&\int_{C}\vec{F}\cdot \mathrm{d}\vec{r} \\
-				&= \int_{a}^b \vec{F}\left( \vec{r}(t) \right) \cdot \vec{r}\,'(t)\mathrm{d}t 
-			\end{split}\tag{vector}
-		\end{gather*}
-		
-
 	\section{Work \& Energy}
 		\begin{gather*}
 			\begin{split}
-			W &= \int_C \vec{F} \cdot \mathrm{d}\vec{s}	\\
-			&= 
-			\end{split}\tag{work integral}
+			W &= \int_C \vec{F} \cdot \mathrm{d}\vec{r}	\\
+			&= \int_{a}^b \vec{F}\left( \vec{r}(t) \right) \cdot \vec{r}\,'(t)\mathrm{d}t \\
+			&= \int_{x,y} \left\langle F_x, F_y \right\rangle \cdot \left\langle \mathrm{d}x, \mathrm{d}y \right\rangle
+			\end{split}\tag{work integral}\\
+			W = \Delta T	\tag{Work-Energy Theorem}\\
+			\vec F = -\nabla U	\tag{potential from force}
 		\end{gather*}
+
+%		\subsection{Line Integrals}
+%			\begin{gather*}
+%				\begin{split}
+%					&\int_{C} f\left( \vec{r}(t) \right) \mathrm{d}s \\
+%					&=\int_{a}^b f\left( \vec{r}(t) \right) \left| \vec{r}\,'(t) \right| \mathrm{d}t
+%				\end{split}\tag{scalar}\\
+%			\end{gather*}
+
+		\subsection{Conservative Forces}
+			A \emph{conservative force} is one with a corresponding potential energy. This means:
+			\begin{itemize}
+				\item the force depends \emph{only} on position
+				\item the work done by that force is the same for \emph{any} path $\implies \nabla \times \vec F = 0$
+			\end{itemize}
+
+	\section{Lagrangian Mechanics}
+			\begin{gather*}
+				\mathcal{L} = T - U	\tag{Lagrangian}\\
+				\diff{}{t} \underbrace{\diffp{\mathcal{L}}{{\dot{q}_i}}}_\text{gnr. $p$} =  \overbrace{\diffp{\mathcal{L}}{{q_i}}}^\text{gnr. $F$}	\tag{$\mathcal{L}$ eqn.}
+			\end{gather*}
+			where 
+			
+
 \end{document}
