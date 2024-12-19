@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1731945318.28622 "c:/Users/rayla/Documents/latex/cheatsheet/main.tex" "main.pdf" "main" 1731945322.23657 0
+["pdflatex"] 1734577318.11209 "c:/Users/rayla/Documents/latex/cheatsheet/main.tex" "main.pdf" "main" 1734577319.4416 0
   "c:/Users/rayla/.texlive2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731897110 3342927 f714842f12754b6b39550c5d49957019 ""
-  "c:/Users/rayla/Documents/latex/cheatsheet/main.tex" 1731945311 3605 39a90a2f2581d293c3bc03e8872e40d3 ""
+  "c:/Users/rayla/Documents/latex/cheatsheet/main.tex" 1734577315 4220 12fc0e6012f10cb65e51d2ea00deb6d9 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1731895665 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1731895665 2933 9ad527ce78d7c5fa0a642dead095f172 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc" 1731895665 2934 a4a9158faed2e9e89c771b4e3b7fc12f ""
@@ -126,9 +126,9 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1729028931 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731896307 5521136 47e49b84c41d5ab3414c7e2d0ef6eb2b ""
   "c:/texlive/2024/texmf.cnf" 1729036052 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1731945321 1491 27dae1113c14bf8fba8540f6183d8c95 "pdflatex"
-  "main.out" 1731945321 1613 39cf71c9cab9a4219482141045a45f64 "pdflatex"
-  "main.tex" 1731945311 3605 39a90a2f2581d293c3bc03e8872e40d3 ""
+  "main.aux" 1734577319 1687 96792d4e12720cfaa7e8fce533864f28 "pdflatex"
+  "main.out" 1734577319 1852 3edff44daf1ffb55c6f8bc40938ac83b "pdflatex"
+  "main.tex" 1734577315 4220 12fc0e6012f10cb65e51d2ea00deb6d9 ""
   (generated)
   "main.aux"
   "main.log"

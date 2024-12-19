@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1733005075.75528 "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" "main.pdf" "main" 1733005076.78125 0
+["pdflatex"] 1734110430.70204 "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" "main.pdf" "main" 1734110432.11243 0
   "c:/Users/rayla/.texlive2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731897110 3342927 f714842f12754b6b39550c5d49957019 ""
-  "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" 1733005074 2230 e55d3f2555889443148fa53aab4cc2b2 ""
+  "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" 1734110429 3468 14bfa2f7f076b35739a66b87d4f63523 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1729030782 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1729029755 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1729029756 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -23,6 +23,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1729029060 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1729029060 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1729029060 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1729029060 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1729029060 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2024/texmf-dist/tex/latex/base/article.cls" 1731895564 20144 d7d3a15c7efd9458741458961c8a96e7 ""
   "c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1731895564 8448 bd43e47d84d3704b7eabd59a92e43bf1 ""
@@ -30,8 +31,8 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1729028931 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731896307 5521136 47e49b84c41d5ab3414c7e2d0ef6eb2b ""
   "c:/texlive/2024/texmf.cnf" 1729036052 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1733005076 905 67f788f4fc9507a14753f954ab66139e "pdflatex"
-  "main.tex" 1733005074 2230 e55d3f2555889443148fa53aab4cc2b2 ""
+  "main.aux" 1734110431 1409 c83fd0625b345f8e8c06ce9ffb20d96f "pdflatex"
+  "main.tex" 1734110429 3468 14bfa2f7f076b35739a66b87d4f63523 ""
   (generated)
   "main.aux"
   "main.log"
