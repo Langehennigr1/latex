@@ -8,8 +8,6 @@
 		\begin{gather*}
 			\left|\frac{\partial(x,y,z)}{\partial(r,\theta,\phi)}\right| = r^2 \sin \theta \\
 			\left| \frac{\partial(x,y)}{\partial(r,\theta)} \right| = \left| \frac{\partial(x,y,z)}{\partial(r,\phi,z)} \right| = r\\
-			\int \frac{\mathrm{d}x}{x} = \ln|x| + C\\
-			\sin\theta \xrightarrow{\diff{}{\theta}} \cos\theta \rightarrow -\sin\theta\\
 			%\xrightleftharpoons[d]{test}
 		\end{gather*}
 	\subsection{Trigonometry}
@@ -17,6 +15,7 @@
 			\frac{\sin a}{A} = \frac{\sin b}{B} = \frac{\sin c}{C}	\tag{law of sines}\\
 			C = \sqrt{A^2 + B^2 - 2AB\cos(c)}	\tag{law of cosines}
 		\end{gather*}
+
 		\subsubsection{Identities}
 			\begin{gather*}
 				\sin^2\theta + \cos^2\theta = 1\\
@@ -36,14 +35,24 @@
 					\cos(2\theta) &= \cos^2\theta - \sin^2\theta\\
 					&= 2\cos^2\theta - 1\\
 					&= 1 - 2\sin^2\theta
-				\end{split}
+				\end{split}\\
+				\tan\theta = \frac{\sin\theta}{\cos\theta}\\
+				\sec\theta = 1/\cos\theta\\
+				\csc\theta = 1/\sin\theta
 			\end{gather*}
-	\subsection{Derivatives}
-		\begin{gather*}
-			\diff{(uv)}{x} = u'v + uv'	\\
-			\diff{(u/v)}{x} = \frac{u'v - uv'}{v^2}	\\
-			\diff{( u(v) )}{x} = u'(v)v'
-		\end{gather*}
+	\subsection{Calculus}
+		\subsubsection{Derivatives}
+			\begin{gather*}
+				\diff{(uv)}{x} = u'v + uv'	\\
+				\diff{(u/v)}{x} = \frac{u'v - uv'}{v^2}	\\
+				\diff{( u(v) )}{x} = u'(v)v' \\
+				\sin\theta \xrightarrow{\diff{}{\theta}} \cos\theta \rightarrow -\sin\theta
+			\end{gather*}
+		\subsubsection{Integrals}
+			\begin{gather*}
+				\int \frac{\mathrm{d}x}{x} = \ln|x| + C\\
+				\int e^{ax} \mathrm{d}x = \frac{1}{a}e^{ax} + C
+			\end{gather*}
 	\subsection{Kinematics}
 		\begin{gather*}
 			\vec v(t) = \vec v_0 + \vec at 	\tag{velocity}\\
@@ -57,7 +66,7 @@
 	\begin{gather*}
 		\vec p = m\vec v	\tag{momentum}\\
 		\vec\ell = I\vec\omega = \vec r \times \vec p	\tag{rot. form}\\
-		\dot{\vec P} = \vec F_\mathrm{ext} \tag{3rd law}\\
+		\dot{\vec P} = \vec F_\mathrm{ext} \tag{2nd law}\\
 		\dot{\vec\ell} = \vec\tau = I\vec\alpha= \vec r \times \vec F	\tag{rot. form}\\
 		\begin{split}
 				\Delta\vec P &= \vec P_f - \vec P_i = \vec J	\\
@@ -118,7 +127,9 @@
 			&= \int_{x,y} \left\langle F_x, F_y \right\rangle \cdot \left\langle \mathrm{d}x, \mathrm{d}y \right\rangle
 			\end{split}\tag{work integral}\\
 			W = \Delta T	\tag{Work-Energy Theorem}\\
-			\vec F = -\nabla U	\tag{potential from force}
+			\vec F = -\nabla U	\tag{potential from force}\\
+			U_s = \frac{1}{2}kx^2	\tag{spring potential energy}\\
+			U_g = mgh				\tag{gravitational potential energy}
 		\end{gather*}
 
 %		\subsection{Line Integrals}
@@ -137,11 +148,11 @@
 			\end{itemize}
 
 	\section{Lagrangian Mechanics}
-			\begin{gather*}
-				\mathcal{L} = T - U	\tag{Lagrangian}\\
-				\diff{}{t} \underbrace{\diffp{\mathcal{L}}{{\dot{q}_i}}}_\text{gnr. $p$} =  \overbrace{\diffp{\mathcal{L}}{{q_i}}}^\text{gnr. $F$}	\tag{$\mathcal{L}$ eqn.}
-			\end{gather*}
-			where 
+		For a $d$-dimensional system of $N$ particles \& $M$ constraints, it is said there are $dN - M$ \emph{degrees of freedom} or generalized coordinates ($q_i$) that describe the positions of those particles. For each coordinate, a \emph{Lagrange equation} \[ \diff{}{t} \underbrace{\diffp{\mathcal{L}}{{\dot{q}_i}}}_\text{gnr. $p$} =  \overbrace{\diffp{\mathcal{L}}{{q_i}}}^\text{gnr. $F$} \] gives the equation of motion.\\
+		\begin{description}
+			\item[cyclic coordinates] Coordinates upon which the Lagrangian \emph{does not} depend on.
+			\item[constraint] Relation between coordinates, e.g. $x^2 + y^2 + z^2 = R^2$ for a spherical pendulum. \emph{Reduces} the number of coordinates needed to describe the system.
+		\end{description}
 			
 
 \end{document}
