@@ -1,5 +1,6 @@
 \documentclass{article}
-
+\usepackage{booktabs}
+\usepackage{textgreek}
 
 \title{Resistors, Inductors, and Capacitors in Circuits}
 \author{Raymond Langehennig}
@@ -14,12 +15,12 @@
 			
 			\subsubsection*{Inductors}
 				Inductors are components used for a variety of reasons (energy storage, magnetic field manipulation, filters), but at their simplest they consist of a conductive material coiled around a "core" of some material that serves to confine the magnetic field induced by the current running through the conductor better.\\
-				Current gives rise to a magnetic field as illustrated by Amp\`ere's Law. It stands to reason, then, that a \emph{changing} current (such as AC) gives rise to a \emph{changing} magnetic field. A changing magnetic field, however, is opposed due to Lenz's Law, resulting finally in a "back-emf" that diminishes the original current through the inductor. This is the \emph{inductive reactance}, symbolized by $X_C$.
+				Current gives rise to a magnetic field as illustrated by Amp\`ere's Law. It stands to reason, then, that a \emph{changing} current (such as AC) gives rise to a \emph{changing} magnetic field. A changing magnetic field, however, is opposed due to Lenz's Law, resulting finally in a "back-emf" that diminishes the original current through the inductor. This is the \emph{inductive reactance}, symbolized by X\textsubscript{L}.
 
 			\subsubsection*{Capacitors}
 				Capacitors, like inductors, also store energy, but they store it in the form of electric potential energy. This is generally accomplished through the separation of two conductors by a dielectric, between which an electric field arises when an electromotive force is supplied due to the accumulation of opposing charge on either conductor (electrons leaving one end/gathering on the other).
-				The voltage across the two conductors approaches that of the supplied electromotive force, while the current in the circuit approaches 0. 
-				In a DC circuit,
+				In a DC circuit, the voltage across the two conductors approaches that of the supplied electromotive force, while the current in the circuit approaches 0 (as there is no potential difference to cause a flow of charge).
+				In an AC circuit, charge will build to an extent before the polarity of the voltage source switches and the same charge builds on the other terminal of the capacitor. This means that a specific amount of charge will accumulate each cycle (in proportion to the length of that cycle) allowing the capacitor \& emf source to reach a specific difference in potential. This potential difference will be necessarily \emph{less} than that between the emf source \& capacitor when it is entirely discharged, meaning that the current will be less in proportion to the charge in the capacitor per cycle and therefore 
 
 
 		\subsection{Objective}
@@ -36,8 +37,8 @@
 	\begin{tabular}{ccc}
 		\hline
 		Component & Nominal value & Actual value \\ \hline
-		Resistors & 220 $\Omega$ & $218.9  \pm awawawaw\Omega$ \\
-		multirow & 1 k$\Omega$ & $1 \pm awawa\mathrm{k\Omega}$ \\
+		Resistors & 220 \textOmega & $218.9  \pm awawawaw\Omega$ \\
+		multirow & 1 k\textOmega & $1 \pm awawa\mathrm{k\Omega}$ \\
 		Capacitor & $0.1 \mathrm{\mu F}$ & $0.1023 \pm \mathrm{\mu F}$ \\
 		Inductor & A & A \\ \hline
 	\end{tabular}
@@ -65,7 +66,22 @@
 	\section{}
 
 	\section{Questions}
+		\begin{quotation}
+			The peak current in your circuit is not constant with frequency. Why is this based on the physics of a capacitor?
+		\end{quotation}
+		
 
-	\section{}
-	\section{}
+	\section{Results}
+	\section{Conclusion}
+	\section*{Tables}
+
+		\begin{table}[]
+			\begin{tabular}{@{}rrrrr@{}}
+			\toprule
+			\multicolumn{1}{l}{f} & \multicolumn{1}{l}{X\textsubscript{C} (k\textOmega)} & \multicolumn{1}{l}{I\textsubscript{pp} (mA)} & \multicolumn{1}{l}{V\textsubscript{pRmeas} (mV)} & \multicolumn{1}{l}{I\textsubscript{ppR,meas} (mA)} \\ \midrule
+			100 & 15.56 & 0.32 & 34.80  & 0.16 \\
+			200 & 7.78  & 0.64 & 69.20  & 0.32 \\
+			400 & 3.89  & 1.29 & 134.00 & 0.61 \\ \bottomrule
+		\end{tabular}
+	\end{table}
 \end{document}
