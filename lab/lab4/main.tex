@@ -2,6 +2,8 @@
 \usepackage{booktabs}
 \usepackage{textgreek}
 \usepackage{esdiff}
+\usepackage{mathtools}
+\usepackage{cancel}
 
 \title{Resistors, Inductors, and Capacitors in Circuits}
 \author{Raymond Langehennig}
@@ -17,18 +19,17 @@
 			\subsubsection*{Inductors}
 				Inductors are components used for a variety of reasons (energy storage, magnetic field manipulation, filters), but at their simplest they consist of a conductive material coiled around a "core" of some material that serves to confine the magnetic field induced by the current running through the conductor better.\\
 				Current gives rise to a magnetic field as illustrated by Amp\`ere's Law. It stands to reason, then, that a \emph{changing} current (such as AC) gives rise to a \emph{changing} magnetic field. A changing magnetic field, however, is opposed due to Lenz's Law ($\mathcal{E} = -\diff{\Phi_B}{t}$), resulting finally in a "back-emf" that diminishes the original current through the inductor. This is the \emph{inductive reactance}, symbolized by X\textsubscript{L}.
+				$$ X_L = \omega L $$
 
 			\subsubsection*{Capacitors}
 				Capacitors, like inductors, also store energy, but they store it in the form of electric potential energy. This is generally accomplished through the separation of two conductors by a dielectric, between which an electric field arises when an electromotive force is supplied due to the accumulation of opposing charge on either conductor (electrons leaving one end/gathering on the other).
 				In a DC circuit, the voltage across the two conductors approaches that of the supplied electromotive force, while the current in the circuit approaches 0 (as there is no potential difference to cause a flow of charge).
-				In an AC circuit, charge will build to an extent before the polarity of the voltage source switches and the same charge builds on the other terminal of the capacitor. This means that a specific amount of charge will accumulate each cycle (in proportion to the length of that cycle) allowing the capacitor \& emf source to reach a specific difference in potential. This potential difference will be necessarily \emph{less} than that between the emf source \& capacitor when it is entirely discharged, meaning that the current will be less in proportion to the charge in the capacitor per cycle and therefore 
+				In an AC circuit, charge will build to an extent before the polarity of the voltage source switches and the same charge builds on the other terminal of the capacitor. This means that a specific amount of charge will accumulate each cycle (in proportion to the length of that cycle) allowing the capacitor \& emf source to reach a specific difference in potential. This potential difference will be necessarily \emph{less} than that between the emf source \& capacitor when it is entirely discharged, awioudauifhieufhe
+				$$ X_C = \frac{1}{\omega C} $$
 
 
 		\subsection{Objective}
 			The object of this lab is to gain an understanding of and familiarity with and reactance in resistor-capacitor (RC), resistor-inductor (RL), and resistor-inductor-capacitor (RLC) circuits. This will be achieved mainly through the use of a breadboard, function generator, and oscilloscope.
-
-		\subsection{Theory}
-			dwadawd
 
 	\section{Procedure}
 		For all experiments, a Global Specialties PB-505 breadboard was used in conjunction with a RIGOL DS1104Z oscilloscope \& DG1022Z function generator. A multitude of electrical components were also used to construct the circuits, the specifications of which will be laid out below.
@@ -38,15 +39,15 @@
 	\begin{tabular}{ccc}
 		\hline
 		Component & Nominal value & Actual value \\ \hline
-		Resistors & 220 \textOmega & $218.9  \pm awawawaw\Omega$ \\
-		multirow & 1 k\textOmega & $1 \pm awawa\mathrm{k\Omega}$ \\
-		Capacitor & $0.1 \mathrm{\mu F}$ & $0.1023 \pm \mathrm{\mu F}$ \\
-		Inductor & A & A \\ \hline
+		Resistors & 220 \textOmega & 218.9  \textpm \textOmega \\
+		multirow & 1 k\textOmega & 1 \textpm k\textOmega \\
+		Capacitor & 0.1 \textmu F & 0.1023 \textpm \textmu F \\
+		Inductor & 3.30E-02 & 3.30E-03 \\ \hline
 	\end{tabular}
 \end{table}
 
 		\subsection{RC Circuit}
-			An RC circuit was constructed with the $220 \Omega$ resistor \& $0.1 \mu$ capacitor in series. The probe of the oscilloscope was placed across the resistor and a 5 V sinusoidal signal was generated. The peak voltage across the resistor was measured at 100, 200, and 400 Hz \&
+			An RC circuit was constructed with the 220 \textOmega resistor \& 0.1 \textOmega capacitor in series. The probe of the oscilloscope was placed across the resistor and a 5 V sinusoidal signal was generated. The peak voltage across the resistor was measured at 100, 200, and 400 Hz.
 
 
 	\section{Data}
@@ -68,9 +69,23 @@
 
 	\section{Questions}
 		\begin{quotation}
+			Question: Determine the SI units for X\textsubscript{C}. Recall that for a capacitor, the charge stored $Q = C(\Delta V)$, and $V = IR$, where the I is the current, which is the flow of charge $I = \diff{Q}{t}$.
+		\end{quotation}
+		\begin{align*}
+			\text{dim } X_C &= \frac{1}{s^{-1} F} \tag{$F = C/V$}\\
+			&= \frac{s}{C/V} = \frac{\cancel{s}}{\frac{\cancel{C}}{\frac{\cancel{C}}{\cancel{s}} \Omega}} \tag{$\text{dim }V = \frac{C}{s} \Omega$}\\
+			&= \Omega
+		\end{align*}
+		
+		\begin{quotation}
 			The peak current in your circuit is not constant with frequency. Why is this based on the physics of a capacitor?
 		\end{quotation}
-		
+		The reactance from the capacitor is inversely proportional to frequency, such that the current is impeded more at lower frequencies.
+
+		\begin{quotation}
+			Draw a phasor diagram for the current in the circuit, resistor voltage V\textsubscript{R}, inductor voltage V\textsubscript{L}, and the emf. Which quantities are you measuring with the scope in this experiment?
+		\end{quotation}
+		The scope measures the voltage across the resistor
 
 	\section{Results}
 	\section{Conclusion}
@@ -79,7 +94,7 @@
 		\begin{table}[]
 			\begin{tabular}{@{}rrrrr@{}}
 			\toprule
-			\multicolumn{1}{l}{f} & \multicolumn{1}{l}{X\textsubscript{C} (k\textOmega)} & \multicolumn{1}{l}{I\textsubscript{pp} (mA)} & \multicolumn{1}{l}{V\textsubscript{pRmeas} (mV)} & \multicolumn{1}{l}{I\textsubscript{ppR,meas} (mA)} \\ \midrule
+			\multicolumn{1}{l}{f (Hz)} & \multicolumn{1}{l}{X\textsubscript{C} (k\textOmega)} & \multicolumn{1}{l}{I\textsubscript{pp} (mA)} & \multicolumn{1}{l}{V\textsubscript{pRmeas} (mV)} & \multicolumn{1}{l}{I\textsubscript{ppR,meas} (mA)} \\ \midrule
 			100 & 15.56 & 0.32 & 34.80  & 0.16 \\
 			200 & 7.78  & 0.64 & 69.20  & 0.32 \\
 			400 & 3.89  & 1.29 & 134.00 & 0.61 \\ \bottomrule
