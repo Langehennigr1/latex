@@ -22,6 +22,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
 INPUT c:/texlive/2024/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/esdiff/esdiff.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/esdiff/esdiff.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./main.aux
@@ -54,6 +56,7 @@ INPUT main.aux
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb

@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1734922400.74699 "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" "main.pdf" "main" 1734922402.84522 0
+["pdflatex"] 1734979179.05984 "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" "main.pdf" "main" 1734979181.03379 0
   "c:/Users/rayla/.texlive2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731897110 3342927 f714842f12754b6b39550c5d49957019 ""
-  "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" 1734922396 5082 e35aa53ba5645a13b8c353b5ac396853 ""
+  "c:/Users/rayla/Documents/latex/lab/lab4/main.tex" 1734979177 5139 8975117339bee4d618a6a6512d298410 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1729030782 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmn1000.tfm" 1729029636 2832 eba925ba5e32fe347e9766e6c16d224b ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1729029755 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -20,6 +20,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1729029060 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1729029060 32080 340ef9bf63678554ee606688e7b5339d ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1729029060 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1729029060 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1729029060 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1729029060 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1729029060 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
@@ -31,6 +32,7 @@
   "c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1731895564 8448 bd43e47d84d3704b7eabd59a92e43bf1 ""
   "c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty" 1729029539 6078 f1cb470c9199e7110a27851508ed7a5c ""
   "c:/texlive/2024/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd" 1729029638 2679 d425462515e71491c8b283467c8a268c ""
+  "c:/texlive/2024/texmf-dist/tex/latex/esdiff/esdiff.sty" 1729030502 6725 81b0356953596a27e8aae3837fdac30d ""
   "c:/texlive/2024/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def" 1729031043 26758 b62a161a750288903f74935e00bbe10e ""
   "c:/texlive/2024/texmf-dist/tex/latex/greek-fontenc/lgrenc.def" 1729031043 44064 385232f72034234aa4a26c99cd883c1a ""
   "c:/texlive/2024/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu" 1729031044 34464 a3daa7aa6bcee63669e993d68174b043 ""
@@ -39,8 +41,8 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1729028931 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731896307 5521136 47e49b84c41d5ab3414c7e2d0ef6eb2b ""
   "c:/texlive/2024/texmf.cnf" 1729036052 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1734922402 1426 d0ecf505869db26ee56a906ea3a16904 "pdflatex"
-  "main.tex" 1734922396 5082 e35aa53ba5645a13b8c353b5ac396853 ""
+  "main.aux" 1734979180 1426 d0ecf505869db26ee56a906ea3a16904 "pdflatex"
+  "main.tex" 1734979177 5139 8975117339bee4d618a6a6512d298410 ""
   (generated)
   "main.aux"
   "main.log"
