@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1760038481.8226 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1760038481.92303 0
+["pdflatex"] 1760043487.93844 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1760043488.00247 0
   "/etc/texmf/web2c/texmf.cnf" 1757122484.53268 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1760038481.53915 1322 a81f803e3cfb00aa036cd4f4dbc3723c ""
+  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1760043487.77707 2102 2694e1200a4934c959d5694181ec324d ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1136768653 1328 5442e22a7072966dbaf88ca900acf3f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -30,8 +30,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1759955765 125915 807ff72f6023b33a59c427bfd156a3d1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1759955772 1928189 a76d76c022ca1939f51dab957e7321cc ""
-  "main.aux" 1760038481.90315 630 fa6861f3bf8a34dd587dcb67779fe71e "pdflatex"
-  "main.tex" 1760038481.53915 1322 a81f803e3cfb00aa036cd4f4dbc3723c ""
+  "main.aux" 1760043487.98506 969 41fcd7710335bf59abdf3fffa8456d68 "pdflatex"
+  "main.tex" 1760043487.77707 2102 2694e1200a4934c959d5694181ec324d ""
   (generated)
   "main.aux"
   "main.log"
