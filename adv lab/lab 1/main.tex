@@ -45,7 +45,7 @@ This is also one of the two resonant frequencies of the entire two-reed system (
 Finding the resonant frequency of the second normal mode is a lot more involved. It entails finding the total potential energy of the entire system, with contributions from the torsion of the reeds, the tuning coils, and the interaction between the magnets, finding and finally solving the equations of motion of the system for the resonant frequencies.
 \subsubsection{Tuning}
 The tuning coils induce a magnetic field perpendicular to the axis of the reeds---in other words, if a coordinate system is given where $x$ is parallel to the reeds, $z$ is perpendicular to the ground, and $y$ is perpendicular to $x$ and $z$, the tuning field $B_T$ is in the $y$ direction. The tuning field effectively changes the torsion constant by adding a term to the potential energy
-\begin{equation}
+\begin{equation*}
     \begin{aligned}
         U   &= U_\tau + U_T \\
             &= \kappa\theta^2/2 - \bm{\upmu}\cdot\mathbf{B}_T \\
@@ -53,29 +53,29 @@ The tuning coils induce a magnetic field perpendicular to the axis of the reeds-
             &\approx \kappa\theta^2/2 - \mu B_T (1-\theta^2/2) \\
             &= (\kappa+\mu B_T)\theta^2/2 - \mu B_T,
     \end{aligned}
-\end{equation}
+\end{equation*}
 where $\bm{\upmu}$ is the magnet's dipole. The new angular frequency can then be derived:
-\begin{equation}
+\begin{equation*}
     \begin{aligned}
         I \ddot{\theta} &= \tau = -\frac{\mathrm{d}U}{\mathrm{d}\theta} \\
             &= -(\kappa + \mu B_T)\theta \\
             &= -\omega^2 \theta \\
            \implies \omega &=  \sqrt{\frac{\kappa + \mu B_T}{I}}.
     \end{aligned}
-\end{equation}
+\end{equation*}
 If both reeds are considered, then they have two different frequencies,
-\begin{equation}
-    \omega_1 = \sqrt{\frac{\kappa_1 + \mu B_T}{I}}\quad\text{and}\quad\omega_2 = \sqrt{\frac{\kappa_2 - \mu B_T}{I}},
-\end{equation}
-where it is assumed the reeds have different torsional constants, and the negative in the second is because its magnet's moment is opposite that of the first.
+\begin{equation*}
+    \omega_1 = \sqrt{\frac{\kappa_1 + \mu_1 B_T}{I}}\quad\text{and}\quad\omega_2 = \sqrt{\frac{\kappa_2 - \mu_2 B_T}{I}},
+\end{equation*}
+where it is assumed the reeds have different torsional constants and dipole moments, and the negative in the second is because its magnet's moment is opposite that of the first.
 
 \subsubsection{Coupling}
 The interaction between the magnets may be modelled by considering the magnetic field at one of the two magnets due to the other, separated by a distance $\mathbf{r}$:
-\begin{equation}
+\begin{equation*}
     \mathbf{B}_1(\mathbf{r}) = \frac{\mu_0}{4\pi}\left( 3\frac{\bm{\upmu}_1\cdot\mathbf{r}}{r^5}\mathbf{r} - \frac{\bm{\upmu}_1}{r^3} \right),
-\end{equation}
+\end{equation*}
 from which arises a magnetic potential energy
-\begin{equation}
+\begin{equation*}
     \begin{aligned}
         U_B &= -\bm{\upmu}_2\cdot \mathbf{B}_1(\mathbf{r}) \\
             &= \frac{\mu_0}{4\pi}\left( -3\frac{(\bm{\upmu}_1\cdot\mathbf{r})(\bm{\upmu}_2\cdot\mathbf{r})}{r^5}\mathbf{r} + \frac{\bm{\upmu}_1\cdot\bm{\upmu}_2}{r^3} \right) \\
@@ -83,14 +83,25 @@ from which arises a magnetic potential energy
             &= -\frac{\mu_0}{4\pi}\frac{\mu_1\mu_2}{r^3}\cos(\theta_1 - \theta_2) \\
             &\approx -\frac{\mu_0}{4\pi}\frac{\mu_1\mu_2}{r^3} \left( 1 - \frac{(\theta_1 - \theta_2)^2}{2} \right)
     \end{aligned}
-\end{equation}
+\end{equation*}
 where the $\bm{\upmu}\cdot \mathbf{r}$ terms have gone to 0 as the two vectors are always perpendicular, and the small angle approximation has been applied to the cosine.
 
 \subsubsection{Equations of motion}
 The equation for the total potential energy, using the results of the previous sections, can be written
-\begin{equation}
-    U = \frac{1}{2}\kappa_1\theta^2
-\end{equation}
+\begin{equation*}
+    U = \frac{1}{2}\kappa_1\theta_1^2 + \frac{1}{2}\kappa_2\theta_2^2+ \frac{1}{2}\mu B_T\theta_1^2 + \frac{1}{2}\left( -\mu B_T \right)\theta_2^2 + \frac{1}{2}\left( \frac{\mu_0}{4\pi}\frac{\mu^2}{r^3} \right)\left( \theta_1 - \theta_2 \right)^2,
+\end{equation*}
+where constant terms have been omitted (so that $U=0$ at some point) and the dipole moments are assumed to be equal in magnitude.
+The coefficient in the last term, $\frac{\mu_0}{4\pi}\frac{\mu^2}{r^3} := \lambda$, describes the strength of the magnetic coupling and comes out to about \qty{0.0008}{N.m} for an $r$ of \qty{20}{mm}.
+
+The equations of motion can now be derived:
+\begin{equation*}
+    \begin{aligned}
+        I\ddot{\theta}_1 &= -\frac{\partial U}{\partial \theta_1} + \mu k_z i_1(t) \quad \text{and} \\
+        I\ddot{\theta}_2 &= -\frac{\partial U}{\partial \theta_2} + \mu k_z i_2(t),
+    \end{aligned}
+\end{equation*}
+where $i_1$ and $i_2$ are the currents through the driving coils.
 
 \section{Materials and Procedure}
 
