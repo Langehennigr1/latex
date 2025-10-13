@@ -96,12 +96,34 @@ The coefficient in the last term, $\frac{\mu_0}{4\pi}\frac{\mu^2}{r^3} := \lambd
 
 The equations of motion can now be derived:
 \begin{equation*}
-    \begin{aligned}
-        I\ddot{\theta}_1 &= -\frac{\partial U}{\partial \theta_1} + \mu k_z i_1(t) \quad \text{and} \\
-        I\ddot{\theta}_2 &= -\frac{\partial U}{\partial \theta_2} + \mu k_z i_2(t),
-    \end{aligned}
+    \begin{cases}
+        I\ddot{\theta}_1 &= -\frac{\partial U}{\partial \theta_1} + \mu k_z i_1 \\
+        I\ddot{\theta}_2 &= -\frac{\partial U}{\partial \theta_2} + \mu k_z i_2
+    \end{cases}
 \end{equation*}
-where $i_1$ and $i_2$ are the currents through the driving coils.
+where $i_1$ and $i_2$ are the currents through the driving coils. These equations can be rewritten as
+\begin{equation*}
+    \begin{cases}
+        I\ddot{\theta}_1 + (\kappa_1 + \mu B_T)\theta_1 + \lambda(\theta_1 - \theta_2) &= \mu k_z i_1\\
+        I\ddot{\theta}_2 + (\kappa_2 - \mu B_T)\theta_2 + \lambda(\theta_2 - \theta_1) &= \mu k_z i_2
+    \end{cases}
+\end{equation*}
+which are seen to be coupled differential equations.
+
+This system of equations may be simplified by conisdering the normal mode in the undriven case, where both currents are set to 0 and the system oscillates at $\omega$:
+\begin{equation*}
+    \begin{cases}
+        \theta_1(t) &= A_1 \exp(-i\omega t) \\
+        \theta_2(t) &= A_2 \exp(-i\omega t)
+    \end{cases}
+\end{equation*}
+The coupled differential equations, now a linear system of equations, may now be written in matrix form:
+\begin{equation*}
+    \left[ \begin{matrix}
+        -I\omega^2+(\kappa_1 + \mu B_T + \lambda)   &   -\lambda \\
+        -\lambda                                    &   -I\omega^2+(\kappa_2 - \mu B_T + \lambda)
+    \end{matrix} \right]\left[ \begin{matrix} A_1 \\ A_2 \end{matrix} \right] = \left[ \begin{matrix} 0\\0 \end{matrix} \right]
+\end{equation*}
 
 \section{Materials and Procedure}
 

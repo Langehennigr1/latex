@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1760322154.41836 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1760322154.61682 0
+["pdflatex"] 1760323948.76225 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1760323948.96173 0
   "/etc/texmf/web2c/texmf.cnf" 1757122484.53268 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1760322154.22496 8348 bec5ad7963930af2f4b25e8115842b25 ""
+  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1760323948.5854 9470 f5accd3373bdec895c44e464e34cd344 ""
   "/home/raymond/texmf/tex/latex/siunitx/siunitx.sty" 1752176849 344221 f0c98c737eca26294f5039e8afde731f ""
   "/home/raymond/texmf/tex/latex/was/upgreek.sty" 1137111079 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -86,8 +86,8 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1759955765 125915 807ff72f6023b33a59c427bfd156a3d1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1760320756 1928199 f06f4cd63dbf28444736c5f182e7bbed ""
   "20250910_113924.jpg" 1760221419.83857 713813 6ea72520fd5a0e370a1239381fb16859 ""
-  "main.aux" 1760322154.58496 1694 f48e7ca2687efea9a4dd1ad501722a42 "pdflatex"
-  "main.tex" 1760322154.22496 8348 bec5ad7963930af2f4b25e8115842b25 ""
+  "main.aux" 1760323948.92939 1694 aa91c7c3e15af239942e323d1fa4f163 "pdflatex"
+  "main.tex" 1760323948.5854 9470 f5accd3373bdec895c44e464e34cd344 ""
   (generated)
   "main.aux"
   "main.log"
