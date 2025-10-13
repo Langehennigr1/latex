@@ -89,10 +89,10 @@ where the $\bm{\upmu}\cdot \mathbf{r}$ terms have gone to 0 as the two vectors a
 \subsubsection{Equations of motion}
 The equation for the total potential energy, using the results of the previous sections, can be written
 \begin{equation*}
-    U = \frac{1}{2}\kappa_1\theta_1^2 + \frac{1}{2}\kappa_2\theta_2^2+ \frac{1}{2}\mu B_T\theta_1^2 + \frac{1}{2}\left( -\mu B_T \right)\theta_2^2 + \frac{1}{2}\left( \frac{\mu_0}{4\pi}\frac{\mu^2}{r^3} \right)\left( \theta_1 - \theta_2 \right)^2,
+    U = \frac{1}{2}\kappa_1\theta_1^2 + \frac{1}{2}\kappa_2\theta_2^2+ \frac{1}{2}\mu B_T\theta_1^2 + \frac{1}{2}\left( -\mu B_T \right)\theta_2^2 + \frac{1}{2}\left( -\frac{\mu_0}{4\pi}\frac{\mu^2}{r^3} \right)\left( \theta_1 - \theta_2 \right)^2,
 \end{equation*}
 where constant terms have been omitted (so that $U=0$ at some point) and the dipole moments are assumed to be equal in magnitude.
-The coefficient in the last term, $\frac{\mu_0}{4\pi}\frac{\mu^2}{r^3} := \lambda$, describes the strength of the magnetic coupling and comes out to about \qty{0.0008}{N.m} for an $r$ of \qty{20}{mm}.
+The coefficient in the last term, $-\frac{\mu_0}{4\pi}\frac{\mu^2}{r^3} := \lambda$, describes the strength of the magnetic coupling and comes out to about \qty{0.0008}{N.m} in magnitude for an $r$ of \qty{20}{mm}.
 
 The equations of motion can now be derived:
 \begin{equation*}
@@ -110,20 +110,22 @@ where $i_1$ and $i_2$ are the currents through the driving coils. These equation
 \end{equation*}
 which are seen to be coupled differential equations.
 
-This system of equations may be simplified by conisdering the normal mode in the undriven case, where both currents are set to 0 and the system oscillates at $\omega$:
+This system of equations may be simplified by assuming the conditions the normal mode in the undriven case, where both currents are set to 0 and the system oscillates at $\omega$:
 \begin{equation*}
     \begin{cases}
         \theta_1(t) &= A_1 \exp(-i\omega t) \\
         \theta_2(t) &= A_2 \exp(-i\omega t)
     \end{cases}
 \end{equation*}
-The coupled differential equations, now a linear system of equations, may now be written in matrix form:
+The coupled differential equations, now a linear system of equations, may be written in matrix form:
 \begin{equation*}
     \left[ \begin{matrix}
         -I\omega^2+(\kappa_1 + \mu B_T + \lambda)   &   -\lambda \\
         -\lambda                                    &   -I\omega^2+(\kappa_2 - \mu B_T + \lambda)
-    \end{matrix} \right]\left[ \begin{matrix} A_1 \\ A_2 \end{matrix} \right] = \left[ \begin{matrix} 0\\0 \end{matrix} \right]
+    \end{matrix} \right]\left[ \begin{matrix} A_1 \\ A_2 \end{matrix} \right] = \left[ \begin{matrix} 0\\0 \end{matrix} \right].
 \end{equation*}
+For this equality to hold, either $A_1=A_2=0$, or there is a
+
 
 \section{Materials and Procedure}
 
