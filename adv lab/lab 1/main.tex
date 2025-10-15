@@ -4,6 +4,9 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{bm,upgreek}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{graphicx}
 
 \title{Analysis of Coupled Oscillators through Fourier Methods}
 \author{Raymond Langehennig}
@@ -27,11 +30,12 @@ The subject of study in this report is a magnetically coupled, magnetically driv
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{20250910_113924.jpg}
+    \includegraphics[width=\linewidth]{20250910_113924.jpg}
     \caption{Photo of the torsional oscillator used.}
+    \label{fig:oscillator}
 \end{figure}
 
-\section{Model}
+\section{Model}\label{sec:model}
 The oscillator consists of two phosphor-bronze reeds in-line with each other, clamped on the outer ends and with a magnetic neodymium cube either inner end. These magnets are placed inside vertical coils that allow for either excitation or detection, and both reeds are placed inside horizontal coils meant for tuning the entire system.
 This setup means that there are two normal modes of oscillation, one where the reeds twist in phase and one where they twist completely out of phase. The frequencies of these normal modes may be predicted theoretically, after which they will be compared to experimental values.
 
@@ -136,12 +140,39 @@ This nontrivial case may be assumed by the fact the system exhibits oscillation,
     \end{aligned}
 \end{equation*}
 which is an easily solvable, biquadratic equation yielding
-\begin{equation*}
-    \omega = \sqrt{\frac{\kappa+\lambda \pm \sqrt{\lambda^2 + \left(\mu B_T\right)^2}}{I}},
-\end{equation*}
+\begin{equation}
+    \omega = \sqrt{\frac{\kappa+\lambda \pm \sqrt{\lambda^2 + \left(\mu B_T\right)^2}}{I}},\label{eq:omegar}
+\end{equation}
 where the negative solutions have been omitted.
 
 \section{Materials and Procedure}
+The experiment centered around the oscillator that is part of the TeachSpin Fourier Methods apparatus (seen in \autoref{fig:oscillator}, circuit diagram in \autoref{fig:circuitdiagram}). Most of the details concerning its operation have been stated in \autoref*{sec:model}.
+\begin{figure}
+    \centering
+    \def\svgwidth{\linewidth}
+    \input{circuit.pdf_tex}
+    \caption{Circuit diagram of the TeachSpin coupled oscillator.}
+    \label{fig:circuitdiagram}
+\end{figure}
+The current induced in the driving coils was at first read on a RIGOL DS1104Z oscilloscope, with excitations provided by a RIGOL DG1022Z function generator (\autoref{fig:setup}), and later both read and excited by an SRS SR770 FFT Network Analyzer (\autoref{fig:fft}).
+
+\begin{figure}
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=.8\linewidth]{setup.jpg}
+        \captionof{figure}{Initial layout of the experiment.}
+        \label{fig:setup}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=.8\linewidth]{sr770.png}
+        \captionof{figure}{SR770 FFT analyzer with power supply.}
+        \label{fig:fft}
+    \end{minipage}
+\end{figure}
+
+The reeds of the oscillator were first given a small twist to confirm via the oscilloscope that they could move freely.
 
 
 \section{Results}
