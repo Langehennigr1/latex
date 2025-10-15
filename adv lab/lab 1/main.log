@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.12)  14 OCT 2025 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.12)  14 OCT 2025 23:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -287,6 +287,12 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count308
 \c@continuedfloat=\count309
 Package caption Info: hyperref package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count310
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count311
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -295,41 +301,41 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count310
+\l__color_backend_stack_int=\count312
 \l__pdf_internal_box=\box64
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
+\scratchcounter=\count313
 \scratchdimen=\dimen172
 \scratchbox=\box65
-\nofMPsegments=\count312
-\nofMParguments=\count313
+\nofMPsegments=\count314
+\nofMParguments=\count315
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count314
+\MPscratchCnt=\count316
 \MPscratchDim=\dimen173
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
+\MPnumerator=\count317
+\makeMPintoPDFobject=\count318
 \everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -337,17 +343,17 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 15.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<20250910_113924.jpg, id=60, 814.0011pt x 404.712pt>
+<20250910_113924.jpg, id=68, 814.0011pt x 404.712pt>
 File: 20250910_113924.jpg Graphic file (type jpg)
 <use 20250910_113924.jpg>
-Package pdftex.def Info: 20250910_113924.jpg  used on input line 33.
+Package pdftex.def Info: 20250910_113924.jpg  used on input line 34.
 (pdftex.def)             Requested size: 345.0pt x 171.53407pt.
 
 
@@ -359,50 +365,64 @@ Package pdftex.def Info: 20250910_113924.jpg  used on input line 33.
 
 [3]
 
-[4] (./circuit.pdf_tex
-<circuit.pdf, id=97, page=1, 289.08049pt x 210.52602pt>
+[4]
+<setup.jpg, id=105, 722.7pt x 610.4406pt>
+File: setup.jpg Graphic file (type jpg)
+<use setup.jpg>
+Package pdftex.def Info: setup.jpg  used on input line 156.
+(pdftex.def)             Requested size: 124.19963pt x 104.90059pt.
+ (./circuit.pdf_tex
+<circuit.pdf, id=106, page=1, 289.08049pt x 210.52602pt>
 File: circuit.pdf Graphic file (type pdf)
 <use circuit.pdf, page 1>
 Package pdftex.def Info: circuit.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 345.0pt x 251.2647pt.
+(pdftex.def)             Requested size: 155.24895pt x 113.06236pt.
 )
-<setup.jpg, id=100, 722.7pt x 610.4406pt>
-File: setup.jpg Graphic file (type jpg)
-<use setup.jpg>
-Package pdftex.def Info: setup.jpg  used on input line 163.
-(pdftex.def)             Requested size: 138.00052pt x 116.56242pt.
-<sr770.png, id=101, 3035.34pt x 4047.12pt>
-File: sr770.png Graphic file (type png)
-<use sr770.png>
-Package pdftex.def Info: sr770.png  used on input line 169.
-(pdftex.def)             Requested size: 138.00052pt x 183.96516pt.
+<SR770_FPlg.jpg, id=109, 1244.85075pt x 532.69012pt>
+File: SR770_FPlg.jpg Graphic file (type jpg)
+<use SR770_FPlg.jpg>
+Package pdftex.def Info: SR770_FPlg.jpg  used on input line 176.
+(pdftex.def)             Requested size: 345.0pt x 147.62411pt.
+<resfreq154.jpg, id=111, 6167.04pt x 6866.65375pt>
+File: resfreq154.jpg Graphic file (type jpg)
+<use resfreq154.jpg>
+Package pdftex.def Info: resfreq154.jpg  used on input line 187.
+(pdftex.def)             Requested size: 172.5pt x 192.05544pt.
 
 
 [5]
 
-[6 <./circuit.pdf> <./setup.jpg> <./sr770.png (PNG copy)>]
+[6 <./setup.jpg> <./circuit.pdf> <./SR770_FPlg.jpg>]
+<sr770.png, id=1213, 3035.34pt x 4047.12pt>
+File: sr770.png Graphic file (type png)
+<use sr770.png>
+Package pdftex.def Info: sr770.png  used on input line 198.
+(pdftex.def)             Requested size: 345.0pt x 459.94379pt.
 
-[7] (./main.aux)
+
+[7 <./resfreq154.jpg>]
+
+[8 <./sr770.png (PNG copy)>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 21BC34DDFAA2A13D377C198F9CBEF704;1960.
+(rerunfilecheck)             Checksum: 0679641C41B807299846C56B71B97E89;2383.
  ) 
 Here is how much of TeX's memory you used:
- 13842 strings out of 475178
- 263893 string characters out of 5766538
- 639906 words of memory out of 5000000
- 36672 multiletter control sequences out of 15000+600000
+ 13976 strings out of 475178
+ 266439 string characters out of 5766538
+ 641923 words of memory out of 5000000
+ 36799 multiletter control sequences out of 15000+600000
  572616 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,14n,79p,1149b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb>
-Output written on main.pdf (7 pages, 16682058 bytes).
+Output written on main.pdf (8 pages, 24465478 bytes).
 PDF statistics:
- 1284 PDF objects out of 1440 (max. 8388607)
- 869 compressed objects within 9 object streams
- 26 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1302 PDF objects out of 1440 (max. 8388607)
+ 884 compressed objects within 9 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

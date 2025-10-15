@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1760494340.97292 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1760494341.43851 0
+["pdflatex"] 1760499203.7052 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1760499204.27728 0
   "/etc/texmf/web2c/texmf.cnf" 1757122484.53268 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1760494340.76886 12006 1ba83ab72bfe7cf64e1282aa35e70d76 ""
+  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1760499203.44804 13682 585dff5491aa5a35905e85f373242357 ""
   "/home/raymond/texmf/tex/latex/etoolbox/etoolbox.sty" 1759437024 46885 8953c67ffba03252c6090aa19568b8ba ""
   "/home/raymond/texmf/tex/latex/siunitx/siunitx.sty" 1752176849 344221 f0c98c737eca26294f5039e8afde731f ""
   "/home/raymond/texmf/tex/latex/was/upgreek.sty" 1137111079 5794 9054e31be15d93f1e6bd28cca2b6643f ""
@@ -86,6 +86,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1738182759 8448 5cf247d4bd0c7d5d711bbbdf111fae2e ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty" 1696191071 72619 ee90b6612147680fd73c3b1406a74245 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty" 1690576852 12494 0c0cdb824278a4d51cefeb2e79901315 ""
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -116,11 +117,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1759955765 125915 807ff72f6023b33a59c427bfd156a3d1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1760320756 1928199 f06f4cd63dbf28444736c5f182e7bbed ""
   "20250910_113924.jpg" 1760221419.83857 713813 6ea72520fd5a0e370a1239381fb16859 ""
+  "SR770_FPlg.jpg" 1760498070.20957 2771901 31baffd0646275e6c2296d32e54af89a ""
   "circuit.pdf" 1760491177.6393 247156 22d01aeacd5d64893cd497be1f8b853a ""
   "circuit.pdf_tex" 1760491177.6393 2068 d5a9a58219cd7cfb6a05e9bf1c063867 ""
-  "main.aux" 1760494341.38884 3055 b12bdf71f881975a72b73dcf66f68ba6 "pdflatex"
-  "main.out" 1760494341.38884 1960 21bc34ddfaa2a13d377c198f9cbef704 "pdflatex"
-  "main.tex" 1760494340.76886 12006 1ba83ab72bfe7cf64e1282aa35e70d76 ""
+  "main.aux" 1760499204.22004 3827 ba692de403c8a3395fa8bdee66943b30 "pdflatex"
+  "main.out" 1760499204.22004 2383 0679641c41b807299846c56b71b97e89 "pdflatex"
+  "main.tex" 1760499203.44804 13682 585dff5491aa5a35905e85f373242357 ""
+  "resfreq154.jpg" 1760497195.86178 5001790 2b9266442325447fe37328d7c2bb3abe ""
   "setup.jpg" 1760492863.51965 1094952 6bd07ab6e524b3920cb8937e5e6514a5 ""
   "sr770.png" 1760493737.6208 14512583 1ca3c8ef8544d336ed80ba12295ab8b0 ""
   (generated)

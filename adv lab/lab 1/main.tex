@@ -6,6 +6,7 @@
 \usepackage{bm,upgreek}
 \usepackage{hyperref}
 \usepackage{caption}
+\usepackage{subcaption}
 \usepackage{graphicx}
 
 \title{Analysis of Coupled Oscillators through Fourier Methods}
@@ -146,33 +147,57 @@ which is an easily solvable, biquadratic equation yielding
 where the negative solutions have been omitted.
 
 \section{Materials and Procedure}
-The experiment centered around the oscillator that is part of the TeachSpin Fourier Methods apparatus (seen in \autoref{fig:oscillator}, circuit diagram in \autoref{fig:circuitdiagram}). Most of the details concerning its operation have been stated in \autoref*{sec:model}.
-\begin{figure}
-    \centering
-    \def\svgwidth{\linewidth}
-    \input{circuit.pdf_tex}
-    \caption{Circuit diagram of the TeachSpin coupled oscillator.}
-    \label{fig:circuitdiagram}
-\end{figure}
-The current induced in the driving coils was at first read on a RIGOL DS1104Z oscilloscope, with excitations provided by a RIGOL DG1022Z function generator (\autoref{fig:setup}), and later both read and excited by an SRS SR770 FFT Network Analyzer (\autoref{fig:fft}).
+The experiment centered around the oscillator that is part of the TeachSpin Fourier Methods apparatus (seen in \autoref{fig:oscillator}, circuit diagram in \autoref{fig:circuitdiagram}). Most of the details concerning its functioning have been stated in \autoref*{sec:model}.
 
 \begin{figure}
     \centering
-    \begin{minipage}{.5\textwidth}
+    \begin{subfigure}{.45\textwidth}
         \centering
         \includegraphics[width=.8\linewidth]{setup.jpg}
-        \captionof{figure}{Initial layout of the experiment.}
-        \label{fig:setup}
-    \end{minipage}%
-    \begin{minipage}{.5\textwidth}
+        \caption{Photo of experiment layout. Oscillocope and function generator on the right.}
+        \label{fig:setupphoto}
+    \end{subfigure}
+    \begin{subfigure}{.45\textwidth}
         \centering
-        \includegraphics[width=.8\linewidth]{sr770.png}
-        \captionof{figure}{SR770 FFT analyzer with power supply.}
-        \label{fig:fft}
-    \end{minipage}
+        \def\svgwidth{\linewidth}
+        \input{circuit.pdf_tex}
+        \caption{Circuit diagram of the TeachSpin coupled oscillator.}
+        \label{fig:circuitdiagram}
+    \end{subfigure}
+    \caption{}
+    \label{setup}
 \end{figure}
 
-The reeds of the oscillator were first given a small twist to confirm via the oscilloscope that they could move freely.
+
+The current induced in the driving coils was at first read on a RIGOL DS1104Z oscilloscope, with excitations provided by a RIGOL DG1022Z function generator (\autoref{fig:setupphoto}), and later both read and excited by an SRS SR770 FFT Network Analyzer (\autoref{fig:fft}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{SR770_FPlg.jpg}
+    \caption{Front panel of the SR770 FFT analyzer.}
+    \label{fig:fft}
+\end{figure}
+
+
+
+\subsection{Experimentation with oscilloscope}
+The reeds of the oscillator were first given a small, lateral displacement to confirm that they were in fact magnetically coupled and could move with minimal friction. The oscillator was configured as seen in \autoref{setup}, and one of the reeds twisted manually to check that the current was being read properly. The function generator was set to produce a \qty{1}{V_{pp}} sinusoidal signal, whose frequency was varied from \qtyrange{100}{200}{Hz} in order to find the resonant frequencies of the system, characterized by extreme amplitude and phase difference.
+\begin{figure}
+    \centering
+    \includegraphics[width=.5\linewidth]{resfreq154.jpg}
+    \caption{The first normal mode of the system, as seen on the oscilloscope.}
+\end{figure}
+
+After the resonant frequencies were found, the behavior of the system from \qtyrange{150}{170}{Hz} was investigated. The amplitude of channel 3 and the phase difference between the signals from the coils was recorded every \qty{5}{Hz}.
+
+\subsection{Experimentation with SR770}
+The principle by which the SR770 works is simple: the system is excited by a signal that can be considered a superposition of sinusoids across a continuous range of frequencies, and by Fourier analysis, the amplitude of oscillation that each frequency induces is obtained. Two kinds of signals were used: noise, which is a superposition of all sinusoids from \qtyrange{0}{100}{kHz}, and chirp, which is a superposition of sinusoids belonging only to a range of interest.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{sr770.png}
+    \caption{SR770 FFT analyzer with power supply.}
+\end{figure}
 
 
 \section{Results}
