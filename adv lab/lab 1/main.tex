@@ -191,7 +191,7 @@ The reeds of the oscillator were first given a small, lateral displacement to co
   \caption{The first normal mode of the system, as seen on the oscilloscope.}
 \end{figure}
 
-After the resonant frequencies were found, the behavior of the system from \qtyrange{150}{170}{Hz} was investigated. The amplitude of channel 3 and the phase difference between the signals from the coils was recorded every \qty{5}{Hz}.
+After the resonant frequencies were found, the behavior of the system from \qtyrange{150}{170}{Hz} was investigated. The amplitude of channel 3 and the phase difference between the signals from the coils was recorded every \qty{5}{Hz} (\autoref{tab:oscfa}).
 
 \subsection{Experimentation with SR770}
 The principle by which the SR770 works is simple: the system is excited by a signal that can be considered a superposition of sinusoids across a continuous range of frequencies, and by Fourier analysis, the amplitude of oscillation that each frequency induces is obtained. Two kinds of signals were used: noise, which is a superposition of all sinusoids from \qtyrange{0}{100}{kHz}, and chirp, which is a superposition of sinusoids belonging only to a range of interest. For the following procedures, noise was used only briefly as the and no data was recorded, as chirp excitations have far less noisy results owing to its more focused range.
@@ -211,7 +211,8 @@ Current was then supplied to the tuning coils. Over the same range of frequencie
 \section{Results}
 
 \subsection{Oscilloscope data}
-The resonant frequencies were measured to be \qty{154.490}{Hz} and \qty{167.300}{Hz} on the oscilloscope.
+The resonant frequencies were measured to be \qty{154.490}{Hz} and \qty{167.300}{Hz} on the oscilloscope. The uncertainty in the frequency as set on the function generator is on the order of parts per million, and so is not included.
+Phase difference was calculated via $\phi = 2\pi f \Delta t$
 
 \begin{table}
 	\centering
@@ -227,6 +228,8 @@ The resonant frequencies were measured to be \qty{154.490}{Hz} and \qty{167.300}
     167.32 & 19.6     & 178.296192 \\
     170    & 3.4      & 127.296    \\ \bottomrule
   \end{tabular}
+  \caption{}
+  \label{tab:oscfa}
 \end{table}
 
 \subsection{SR770 data}

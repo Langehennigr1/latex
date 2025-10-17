@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.12)  17 OCT 2025 02:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.12)  17 OCT 2025 03:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -408,7 +408,7 @@ Package pdftex.def Info: resfreq154.jpg  used on input line 190.
 [5]
 
 [6 <./setup.jpg> <./circuit.pdf> <./SR770_FPlg.jpg>]
-<sr770.png, id=1217, 3035.34pt x 4047.12pt>
+<sr770.png, id=1218, 3035.34pt x 4047.12pt>
 File: sr770.png Graphic file (type png)
 <use sr770.png>
 Package pdftex.def Info: sr770.png  used on input line 201.
@@ -418,7 +418,7 @@ Package pdftex.def Info: sr770.png  used on input line 201.
 [7 <./resfreq154.jpg>]
 
 [8 <./sr770.png (PNG copy)>]
-Overfull \hbox (16.36151pt too wide) in paragraph at lines 240--242
+Overfull \hbox (16.36151pt too wide) in paragraph at lines 243--245
 \OT1/cmr/m/n/10 and the full scale un-cer-tainty for a $\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = 199\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 526 []$ comes out to $\OMS/cmsy/m/n/10 ^^F\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 039 905 2 []$,
  []
 
@@ -435,18 +435,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 82DD236427BD1DB8F4AE53C7A1BC1C22;2502.
  ) 
 Here is how much of TeX's memory you used:
- 14058 strings out of 475178
- 267755 string characters out of 5766538
- 642717 words of memory out of 5000000
- 36872 multiletter control sequences out of 15000+600000
+ 14059 strings out of 475178
+ 267766 string characters out of 5766538
+ 642747 words of memory out of 5000000
+ 36873 multiletter control sequences out of 15000+600000
  572616 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,14n,79p,1149b,1056s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1149b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb>
-Output written on main.pdf (10 pages, 24473993 bytes).
+Output written on main.pdf (10 pages, 24474408 bytes).
 PDF statistics:
- 1317 PDF objects out of 1440 (max. 8388607)
- 897 compressed objects within 9 object streams
+ 1318 PDF objects out of 1440 (max. 8388607)
+ 898 compressed objects within 9 object streams
  36 named destinations out of 1000 (max. 500000)
  167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
