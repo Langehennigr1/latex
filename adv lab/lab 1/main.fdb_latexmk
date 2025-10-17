@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1760644824.90092 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1760644825.40179 0
+["pdflatex"] 1760682349.16235 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1760682349.73703 0
   "/etc/texmf/web2c/texmf.cnf" 1757122484.53268 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1760644824.68512 14331 306ba8fe21215861d61a546b43764327 ""
+  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1760682348.86713 16362 d12e09b7dcc6767ffd2ee15dbfd0c17e ""
   "/home/raymond/texmf/tex/latex/etoolbox/etoolbox.sty" 1759437024 46885 8953c67ffba03252c6090aa19568b8ba ""
   "/home/raymond/texmf/tex/latex/siunitx/siunitx.sty" 1752176849 344221 f0c98c737eca26294f5039e8afde731f ""
   "/home/raymond/texmf/tex/latex/was/upgreek.sty" 1137111079 5794 9054e31be15d93f1e6bd28cca2b6643f ""
@@ -84,6 +84,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1738182759 2963 d8ec5a1b4e0a106c5c737900202763e4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1738182759 2378 14b657ee5031da98cf91648f19642694 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1738182759 8448 5cf247d4bd0c7d5d711bbbdf111fae2e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty" 1579038678 6078 f1cb470c9199e7110a27851508ed7a5c ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty" 1696191071 72619 ee90b6612147680fd73c3b1406a74245 ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty" 1690576852 12494 0c0cdb824278a4d51cefeb2e79901315 ""
@@ -120,9 +121,9 @@
   "SR770_FPlg.jpg" 1760498070.20957 2771901 31baffd0646275e6c2296d32e54af89a ""
   "circuit.pdf" 1760491177.6393 247156 22d01aeacd5d64893cd497be1f8b853a ""
   "circuit.pdf_tex" 1760491177.6393 2068 d5a9a58219cd7cfb6a05e9bf1c063867 ""
-  "main.aux" 1760644825.34912 3827 c9dd35e0f7a3e61ea8f94d70c536ca06 "pdflatex"
-  "main.out" 1760644825.34912 2383 0679641c41b807299846c56b71b97e89 "pdflatex"
-  "main.tex" 1760644824.68512 14331 306ba8fe21215861d61a546b43764327 ""
+  "main.aux" 1760682349.69111 4219 c4e530640781ef15570d63e24f621699 "pdflatex"
+  "main.out" 1760682349.69111 2502 82dd236427bd1db8f4ae53c7a1bc1c22 "pdflatex"
+  "main.tex" 1760682348.86713 16362 d12e09b7dcc6767ffd2ee15dbfd0c17e ""
   "resfreq154.jpg" 1760497195.86178 5001790 2b9266442325447fe37328d7c2bb3abe ""
   "setup.jpg" 1760492863.51965 1094952 6bd07ab6e524b3920cb8937e5e6514a5 ""
   "sr770.png" 1760493737.6208 14512583 1ca3c8ef8544d336ed80ba12295ab8b0 ""
