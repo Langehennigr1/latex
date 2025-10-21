@@ -191,7 +191,7 @@ The reeds of the oscillator were first given a small, lateral displacement to co
   \caption{The first normal mode of the system, as seen on the oscilloscope.}
 \end{figure}
 
-After the resonant frequencies were found, the behavior of the system from \qtyrange{150}{170}{Hz} was investigated. The amplitude of channel 3 and the phase difference between the signals from the coils was recorded every \qty{5}{Hz} (\autoref{tab:oscfa}).
+After the resonant frequencies were found, the behavior of the system from \qtyrange{150}{170}{Hz} was investigated. The amplitude of channel 3 and the time difference between the signals from the coils was recorded every \qty{5}{Hz} (\autoref{tab:oscfa}).
 
 \subsection{Experimentation with SR770}
 The principle by which the SR770 works is simple: the system is excited by a signal that can be considered a superposition of sinusoids across a continuous range of frequencies, and by Fourier analysis, the amplitude of oscillation that each frequency induces is obtained. Two kinds of signals were used: noise, which is a superposition of all sinusoids from \qtyrange{0}{100}{kHz}, and chirp, which is a superposition of sinusoids belonging only to a range of interest. For the following procedures, noise was used only briefly as the and no data was recorded, as chirp excitations have far less noisy results owing to its more focused range.
@@ -211,40 +211,44 @@ Current was then supplied to the tuning coils. Over the same range of frequencie
 \section{Results}
 
 \subsection{Oscilloscope data}
-The resonant frequencies were measured to be \qty{154.490}{Hz} and \qty{167.300}{Hz} on the oscilloscope. The uncertainty in the frequency as set on the function generator is on the order of parts per million, and so is not included.
-Phase difference was calculated via $\phi = 2\pi f \Delta t$
+The resonant frequencies were measured to be \qty{154.49}{Hz} and \qty{167.30}{Hz} on the oscilloscope. The uncertainty in the frequency as set on the function generator is on the order of parts per million, and so is not included. Uncertainty in the time difference is given by a combination of resolution uncertainty ($1/(2\times\text{sample rate})$) and timebase inaccuracy ($\pm\qty{25}{ppm}$):  $\delta(\Delta t) = \sqrt{\left( \qty{4}{ns} \right)^2 + \left( \qty{25}{ppm} \Delta t \right)^2}$.
+Phase difference was calculated via $\phi = 2\pi f \Delta t$.
 
 \begin{table}
-	\centering
+  \centering
   \begin{tabular}{@{}lll@{}}
     \toprule
     $f$ (\unit{Hz}) & $A$ (\unit{\mV}) & $\phi$ ($^\circ$) \\ \midrule
-    150    & 3.2      & 77.76      \\
-    154.49 & 9.0      & 17.797248  \\
-    154.72 & 52.4     & 3.341952   \\
-    155    & 14.2     & 13.392     \\
-    160    & 3.0      & 94.464     \\
-    165    & 3.8      & 125.928    \\
-    167.32 & 19.6     & 178.296192 \\
-    170    & 3.4      & 127.296    \\ \bottomrule
+    150.00    & 3.2      & 77.76      \\
+    154.49   & 9.0      & 17.797248  \\
+    154.72   & 52.4     & 3.341952   \\
+    155.00    & 14.2     & 13.392     \\
+    160.00    & 3.0      & 94.464     \\
+    165.00    & 3.8      & 125.928    \\
+    167.32   & 19.6     & 178.296192 \\
+    170.00    & 3.4      & 127.296    \\ \bottomrule
   \end{tabular}
   \caption{}
   \label{tab:oscfa}
 \end{table}
 
 \subsection{SR770 data}
-The horizontal resolution of the SR770 as reported by its manufacturer is equal to $\text{span}/400=\qty{0.24375}{Hz}$ which dominates the uncertainty of the frequency measurements (compare, for example, with the reported accuracy of \qty{25}{ppm}). The uncertainty in amplitude, on the entire hand, is determined by accuracy, which is given as $\pm\qty{0.3}{dB}\pm (0.02\%\text{ of full scale})$. The decibel uncertainty may be approximated as a percent uncertainty:
+The horizontal resolution of the SR770 as reported by its manufacturer is equal to $\text{span}/400=\qty{0.24375}{Hz}$ which dominates the uncertainty of the frequency measurements (compare, for example, with the reported accuracy of \qty{25}{ppm}). The uncertainty in amplitude, on the entire hand, is determined by accuracy, which is given as $\pm\qty{0.3}{dB}\pm (0.02\%\text{ of full scale})$. The decibel uncertainty may be expressed as an (asymmetric) percent uncertainty:
 \begin{equation*}
 	\begin{aligned}
-		\pm\qty{0.3}{dB} &= 20 \log_{10}\left( \frac{V_\text{measured}}{V_\text{true}} \right) \\
-		\implies \frac{V_\text{measured}}{V_\text{true}} &= 10^{(\pm0.3/20)} = ^{+3.51\%}_{-3.40\%}\\
-		 &\approx \pm 3.5\%,
+		\pm 0.3 &= 20 \log_{10}\left( 1 + \delta_\text{dB}V/V \right) \\
+		\implies \delta_\text{dB}V/V &= 1- 10^{(\pm0.3/20)} = ^{+3.51\%}_{-3.40\%}%\\
+%		 &\approx \pm 3.5\
+,
 	\end{aligned}
 \end{equation*}
 and the full scale uncertainty for a $V_\text{top}=\qty{199.526}{mV}$ comes out to $\pm \qty{0.0399052}{mV}$, giving a combined uncertainty of 
 \begin{equation*}
-	\delta V = \sqrt{\left( \qty{0.0399052}{mV} \right)^2 + \left( 3.5\% V \right)^2}
+	\delta V = \sqrt{\left( \qty{0.0399052}{mV} \right)^2 + \left( ^{+3.51\%}_{-3.40\%} V \right)^2}.
 \end{equation*}
+For the sake of brevity, this uncertainty is approximated with a symmetrical uncertainty in \autoref{tab:sr770res}.
+
+
 
 \begin{table}
   \centering
@@ -262,6 +266,27 @@ and the full scale uncertainty for a $V_\text{top}=\qty{199.526}{mV}$ comes out 
   \end{tabular}
   \label{tab:sr770res}
 \end{table}
+
+\begin{figure}
+		\centering
+		\def\svgwidth{.5\linewidth}
+		\input{avoided_crossing.pdf_tex}
+		\caption{}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\linewidth}
+		\def\svgwidth{\linewidth}
+		\input{omegadiff.pdf_tex}
+	\end{subfigure}%
+	\begin{subfigure}{.5\linewidth}
+		\def\svgwidth{\linewidth}
+		\input{omegasum.pdf_tex}
+	\end{subfigure}
+	\caption{}
+\end{figure}
+
 
 \section{Discussion}
 
