@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.12)  21 OCT 2025 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.12)  22 OCT 2025 05:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -211,6 +211,8 @@ File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
 Package hyperref Info: Hyper figures OFF on input line 4157.
 Package hyperref Info: Link nesting OFF on input line 4162.
 Package hyperref Info: Hyper index ON on input line 4165.
@@ -237,7 +239,7 @@ Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
 Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring ON on input line 6060.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
  (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
@@ -265,6 +267,22 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip56
+) (/home/raymond/texmf/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: always capitalise cross-reference names on input line 7825.
+Package cleveref Info: always capitalise cross-reference names on input line 7852.
+Package cleveref Info: no abbreviation of names on input line 7852.
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
@@ -320,24 +338,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count317
@@ -357,85 +375,84 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring ON on input line 17.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+<20250910_113924.jpg, id=76, 814.0011pt x 404.712pt>
+File: 20250910_113924.jpg Graphic file (type jpg)
+<use 20250910_113924.jpg>
+Package pdftex.def Info: 20250910_113924.jpg  used on input line 36.
+(pdftex.def)             Requested size: 345.0pt x 171.53407pt.
 
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<20250910_113924.jpg, id=88, 814.0011pt x 404.712pt>
-File: 20250910_113924.jpg Graphic file (type jpg)
-<use 20250910_113924.jpg>
-Package pdftex.def Info: 20250910_113924.jpg  used on input line 35.
-(pdftex.def)             Requested size: 345.0pt x 171.53407pt.
-
 
 [2 <./20250910_113924.jpg>]
 
 [3]
 
 [4]
-<setup.jpg, id=114, 722.7pt x 610.4406pt>
+<setup.jpg, id=112, 722.7pt x 610.4406pt>
 File: setup.jpg Graphic file (type jpg)
 <use setup.jpg>
-Package pdftex.def Info: setup.jpg  used on input line 167.
+Package pdftex.def Info: setup.jpg  used on input line 168.
 (pdftex.def)             Requested size: 124.19963pt x 104.90059pt.
  (./circuit.pdf_tex
-<circuit.pdf, id=115, page=1, 289.08049pt x 210.52602pt>
+<circuit.pdf, id=113, page=1, 289.08049pt x 210.52602pt>
 File: circuit.pdf Graphic file (type pdf)
 <use circuit.pdf, page 1>
 Package pdftex.def Info: circuit.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 155.24895pt x 113.06236pt.
 )
-
-[5]
-<SR770_FPlg.jpg, id=125, 1244.85075pt x 532.69012pt>
+<SR770_FPlg.jpg, id=116, 1244.85075pt x 532.69012pt>
 File: SR770_FPlg.jpg Graphic file (type jpg)
 <use SR770_FPlg.jpg>
-Package pdftex.def Info: SR770_FPlg.jpg  used on input line 186.
+Package pdftex.def Info: SR770_FPlg.jpg  used on input line 187.
 (pdftex.def)             Requested size: 345.0pt x 147.62411pt.
-<resfreq154.jpg, id=127, 6167.04pt x 6866.65375pt>
+<resfreq154.jpg, id=118, 6167.04pt x 6866.65375pt>
 File: resfreq154.jpg Graphic file (type jpg)
 <use resfreq154.jpg>
-Package pdftex.def Info: resfreq154.jpg  used on input line 195.
+Package pdftex.def Info: resfreq154.jpg  used on input line 196.
 (pdftex.def)             Requested size: 172.5pt x 192.05544pt.
 
 
+[5]
+
 [6 <./setup.jpg> <./circuit.pdf> <./SR770_FPlg.jpg>]
-<sr770.png, id=1224, 3035.34pt x 4047.12pt>
+<sr770.png, id=1223, 3035.34pt x 4047.12pt>
 File: sr770.png Graphic file (type png)
 <use sr770.png>
-Package pdftex.def Info: sr770.png  used on input line 206.
-(pdftex.def)             Requested size: 345.0pt x 459.94379pt.
+Package pdftex.def Info: sr770.png  used on input line 207.
+(pdftex.def)             Requested size: 172.5pt x 229.9719pt.
 
 
 [7 <./resfreq154.jpg>]
 
 [8 <./sr770.png (PNG copy)>]
-Overfull \hbox (16.36151pt too wide) in paragraph at lines 249--251
+Overfull \hbox (16.36151pt too wide) in paragraph at lines 250--252
 \OT1/cmr/m/n/10 and the full scale un-cer-tainty for a $\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = 199\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 526 []$ comes out to $\OMS/cmsy/m/n/10 ^^F\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 039 905 2 []$,
  []
 
 (./avoided_crossing.pdf_tex
-<avoided_crossing.pdf, id=1242, page=1, 722.7pt x 433.62pt>
+<avoided_crossing.pdf, id=1241, page=1, 722.7pt x 433.62pt>
 File: avoided_crossing.pdf Graphic file (type pdf)
 <use avoided_crossing.pdf, page 1>
 Package pdftex.def Info: avoided_crossing.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 345.0pt x 206.9972pt.
 ) (./omegasum.pdf_tex
-<omegasum.pdf, id=1243, page=1, 367.90262pt x 289.08pt>
+<omegasum.pdf, id=1242, page=1, 367.90262pt x 289.08pt>
 File: omegasum.pdf Graphic file (type pdf)
 <use omegasum.pdf, page 1>
 Package pdftex.def Info: omegasum.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 172.5pt x 135.54561pt.
 ) (./omegadiff.pdf_tex
-<omegadiff.pdf, id=1244, page=1, 377.48529pt x 289.08pt>
+<omegadiff.pdf, id=1243, page=1, 377.48529pt x 289.08pt>
 File: omegadiff.pdf Graphic file (type pdf)
 <use omegadiff.pdf, page 1>
 Package pdftex.def Info: omegadiff.pdf , page1 used on input line 56.
@@ -461,18 +478,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8C3CC541F509F6D2E590CB0020B24C36;2676.
  ) 
 Here is how much of TeX's memory you used:
- 14105 strings out of 475178
- 268829 string characters out of 5766538
- 642889 words of memory out of 5000000
- 36906 multiletter control sequences out of 15000+600000
- 572616 words of font info for 83 fonts, out of 8000000 for 9000
+ 15753 strings out of 475178
+ 306855 string characters out of 5766538
+ 675581 words of memory out of 5000000
+ 38551 multiletter control sequences out of 15000+600000
+ 572308 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,15n,79p,1149b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb>
-Output written on main.pdf (11 pages, 24599315 bytes).
+ 75i,15n,79p,1149b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb>
+Output written on main.pdf (11 pages, 24590712 bytes).
 PDF statistics:
- 1795 PDF objects out of 2073 (max. 8388607)
- 1217 compressed objects within 13 object streams
+ 1792 PDF objects out of 2073 (max. 8388607)
+ 1216 compressed objects within 13 object streams
  40 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)
 
