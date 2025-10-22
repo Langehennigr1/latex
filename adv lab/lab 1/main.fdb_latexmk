@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1761124542.36526 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1761124543.06154 0
+["pdflatex"] 1761129328.99014 "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" "main.pdf" "main" 1761129329.66265 0
   "/etc/texmf/web2c/texmf.cnf" 1757122484.53268 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1761124542.12591 19223 50b81367dbe8db1744893c459332f2d7 ""
+  "/home/raymond/Documents/vscode/gitlatex/latex/adv lab/lab 1/main.tex" 1761129328.77301 20071 3a272c09567a934376098cad438aa744 ""
   "/home/raymond/texmf/tex/latex/cleveref/cleveref.sty" 1525128982 329481 7fc6b003158402a4c694bc0a1b729308 ""
   "/home/raymond/texmf/tex/latex/etoolbox/etoolbox.sty" 1759437024 46885 8953c67ffba03252c6090aa19568b8ba ""
   "/home/raymond/texmf/tex/latex/siunitx/siunitx.sty" 1752176849 344221 f0c98c737eca26294f5039e8afde731f ""
@@ -48,6 +48,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -122,9 +123,9 @@
   "avoided_crossing.pdf_tex" 1761021597.27924 2070 459391a05b62ecccf1f4eaa545d08d2f ""
   "circuit.pdf" 1760491177.6393 247156 22d01aeacd5d64893cd497be1f8b853a ""
   "circuit.pdf_tex" 1760491177.6393 2068 d5a9a58219cd7cfb6a05e9bf1c063867 ""
-  "main.aux" 1761124543.0099 6085 17f832cbf09452b8aaa341e28f7796a9 "pdflatex"
-  "main.out" 1761124543.0139 2676 8c3cc541f509f6d2e590cb0020b24c36 "pdflatex"
-  "main.tex" 1761124542.12591 19223 50b81367dbe8db1744893c459332f2d7 ""
+  "main.aux" 1761129329.605 6410 8af871e5f4307b325dccd26bc3d2cea7 "pdflatex"
+  "main.out" 1761129329.605 2970 20a5753e564f571cc87df25fad9a67ca "pdflatex"
+  "main.tex" 1761129328.77301 20071 3a272c09567a934376098cad438aa744 ""
   "omegadiff.pdf" 1761021017.42319 43609 359f9daee12f4ae00b096217ab645e92 ""
   "omegadiff.pdf_tex" 1761021017.42319 2072 2bee6ca51c30c0da238cff229b6a856f ""
   "omegasum.pdf" 1761021016.3592 37696 dbac79037bbee071ff7e90538b80d21e ""

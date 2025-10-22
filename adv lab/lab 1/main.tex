@@ -1,11 +1,11 @@
 \documentclass{article}
 
-\usepackage{siunitx}
+\usepackage[separate-uncertainty=true]{siunitx}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{bm,upgreek}
 \usepackage[colorlinks,colorlinks,linkcolor=blue]{hyperref}
-\usepackage[capitalise,noabbrev]{cleveref}
+\usepackage[capitalise,noabbrev,nameinlink]{cleveref}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{graphicx}
@@ -42,7 +42,7 @@ The subject of study in this report is a magnetically coupled, magnetically driv
 The oscillator consists of two phosphor-bronze reeds in-line with each other, clamped on the outer ends and with a magnetic neodymium cube either inner end. These magnets are placed inside vertical coils that allow for either excitation or detection, and both reeds are placed inside horizontal coils meant for tuning the entire system.
 This setup means that there are two normal modes of oscillation, one where the reeds twist in phase and one where they twist completely out of phase. The frequencies of these normal modes may be predicted theoretically, after which they will be compared to experimental values.
 
-\subsection{Resonsant frequency of a single reed}
+\subsection{Resonsant frequency of a single reed}\label{sec:icalc}
 The resonant frequency of a single, untuned reed can be calculated easily by $\omega = \sqrt{\kappa/I}$. $\kappa$ may be calculated using \[ \kappa = G\frac{wt^3}{3L}, \] where $G = \qty{41}{\giga\pascal}$ is the shear modulus, $w = \qty{6.35}{\mm}$ is the width of the reed, $t = \qty{0.254}{\mm}$ is the thickness or depth of the reed, and $L = \qty{100}{\mm}$ is the length of the reed, all giving $\kappa \approx \qty{0.014}{N.m}$. The rotational inertia of the cube $I = \rho\ell^5/6 \approx \qty{0.129}{\gram.\cm^2}$, with a density $\rho = \qty{7.51}{g/cm^3}$ and side length $\ell = \qty{6.35}{mm}$. This gives $\omega = \qty{1050}{\per\s}$ and therefore a resonant frequency $f = \qty{167}{Hz}$.
 
 This is also one of the two resonant frequencies of the entire two-reed system (with no tuning), as will be shown in the derivation of the second resonant frequency, but which may also be seen from inspection.
@@ -136,7 +136,7 @@ The coupled differential equations, now a linear system of equations, may be wri
   \end{matrix} \right].
 \end{equation*}
 For this equality to hold, either there is only the trivial solution where $A_1=A_2=0$, or there exists a nontrivial solution. The latter is true if and only if the determinant of the square matrix is 0.
-This nontrivial case may be assumed by the fact the system exhibits oscillation,
+This nontrivial case may be assumed by the fact the system exhibits oscillation, which implies
 \begin{equation*}
   \begin{aligned}
     \left|
@@ -156,7 +156,7 @@ where the negative solutions have been omitted.
 \subsubsection{The avoided crossing}
 The solutions for $\omega$ predict the phenomenon of the \emph{avoided crossing}, where, when they are plotted against current through the tuning coils, the resonant frequencies of the system appear to avoid overlapping as $B_\text{T}$ is varied.
 
-If the system were to be manually uncoupled, that is to say, if one of the reeds was allowed to oscillate while the other was held fixed at its equilibrium position, then the reed whose dipole is aligned with $B_\text{T}$ oscillates with a frequency $\Omega_1 = \sqrt{\frac{\kappa+\mu B_\text{T}+\lambda}{I}}$, and the other reed with a frequency $\Omega_2 = \sqrt{\frac{\kappa-\mu B_\text{T}+\lambda}{I}}$. If these are then plotted, no such phenomenon is observed, as it is a feature of coupled oscillators only. In fact, the $\omega$ curves appear to have the $\Omega$ curves as asymptotes. Such plots may be seen in \autoref{fig:fvsi}.
+If the system were to be manually uncoupled, that is to say, if one of the reeds was allowed to oscillate while the other was held fixed at its equilibrium position, then the reed whose dipole is aligned with $B_\text{T}$ oscillates with a frequency $\Omega_1 = \sqrt{\frac{\kappa+\mu B_\text{T}+\lambda}{I}}$, and the other reed with a frequency $\Omega_2 = \sqrt{\frac{\kappa-\mu B_\text{T}+\lambda}{I}}$. If these are then plotted, no such phenomenon is observed, as it is a feature of coupled oscillators only. In fact, the $\omega$ curves appear to have the $\Omega$ curves as asymptotes. Such a plot may be seen in \autoref{fig:fvsi}.
 
 \section{Materials and Procedure}
 The experiment centered around the oscillator that is part of the TeachSpin Fourier Methods apparatus (seen in \autoref{fig:oscillator}, circuit diagram in \autoref{fig:circuitdiagram}). Most of the details concerning its functioning have been stated in \autoref*{sec:model}.
@@ -295,11 +295,17 @@ For the sake of brevity, this uncertainty is approximated with a symmetrical unc
   \label{fig:omegagraphs}
 \end{figure}
 
-\section{Discussion}
-\cref{fig:fvsi,fig:omegagraphs} show a clear deviation from expected values that cannot be accounted for by the uncertainty. It should be noted, however, that no uncertainty could be provided for the expected values as none were provided for the quantites used in their calculation, which were obtained externally. 
+\subsection{Calculation of $\kappa$ and $\lambda$ from experimental data}
+Assuming no current, \autoref{eq:omegar} reduces to
+\begin{equation*}
+	\omega_\pm = \sqrt\frac{\kappa+\lambda \pm \lambda}{I}
+\end{equation*}
+from which, using the value for $I$ calculated in \autoref{sec:icalc}, a more accurate figure for $\kappa$ and $\lambda$ may be recovered. For $\omega_- = 2\pi\qty{154.79 \pm 0.23}{Hz} = \qty{972.6 \pm 1.4}{s^{-1}}$, a value of \qty{0.01220280 \pm 0.000000025}{N.m}
 
-% ummmm damping
+\section{Discussion}
+\cref{fig:fvsi,fig:omegagraphs} show a clear deviation in the experimental values from the expected values that cannot be accounted for by the uncertainty in the experimental values. It should be noted, however, that no uncertainty could be provided for the expected data as none were provided for the quantites used in their calculation, which were obtained externally and not measured during the course of the experiment (except for current, however its uncertainty is neglible and would be hardly visible on the plot). All that being said, the experimental data exhibits a similar overall shape to that of the expected data
 
 \section{Conclusion}
+
 
 \end{document}
