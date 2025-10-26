@@ -199,7 +199,7 @@ The reeds of the oscillator were first given a small, lateral displacement to co
 
 After the resonant frequencies were found, the behavior of the system from \qtyrange{150}{170}{Hz} was investigated. The amplitude of channel 3 and the time difference between the signals from the coils was recorded every \qty{5}{Hz} (\autoref{tab:oscfa}).
 
-\subsection{Experimentation with SR770}
+\subsection{Experimentation with SR770}\label{sec:fftproc}
 The principle by which the SR770 works is simple: the system is excited by a signal that can be considered a superposition of sinusoids across a continuous range of frequencies, and by Fourier analysis, the amplitude of oscillation that each frequency induces is obtained. Two kinds of signals were used: noise, which is a superposition of all sinusoids from \qtyrange{0}{100}{kHz}, and chirp, which is a superposition of sinusoids belonging only to a range of interest. For the following procedures, noise was used only briefly as the and no data was recorded, as chirp excitations have far less noisy results owing to its more focused range.
 
 \begin{figure}
@@ -215,6 +215,13 @@ Resonances between \qty{100.0977}{Hz} and \qty{197.5977}{Hz} over 100 averages w
 Current was then supplied to the tuning coils. Over the same range of frequencies, using 300 averages, the resonant frequencies of the system were recorded as the current was varied from \qtyrange{-2}{2}{\ampere} in \qty{0.2}{\ampere} intervals.
 
 \section{Results}
+
+\subsection{Calculation of $\kappa$ and $\lambda$ from experimental data}
+Assuming no current, \autoref{eq:omegar} reduces to
+\begin{equation*}
+	\omega_\pm = \sqrt\frac{\kappa+\lambda \pm \lambda}{I}
+\end{equation*}
+from which, using the value for $I$ calculated in \autoref{sec:icalc}, a more accurate figure for $\kappa$ and $\lambda$ may be recovered. For $\omega_- = 2\pi\qty{154.79 \pm 0.23}{Hz} = \qty{972.6 \pm 1.4}{s^{-1}}$ and $\omega_+ = 2\pi\qty{167.24 \pm 0.23}{Hz} = \qty{1050.8 \pm 1.4}{s^{-1}}$, a value of \qty{0.01220 \pm 0.00004}{N.m} for $\kappa$ and \qty{0.001021 \pm 0.000028}{N.m} for $\lambda$ are obtained.
 
 \subsection{Oscilloscope data}
 The resonant frequencies were measured to be \qty{154.49}{Hz} and \qty{167.30}{Hz} on the oscilloscope. Uncertainty in the frequency as set on the function generator is given as $\pm\qty{1}{ppm}$, and the uncertainty in the time difference is given by a combination of resolution uncertainty ($1/(2\times\text{sample rate})$) and timebase inaccuracy ($\pm\qty{25}{ppm}$):  $\delta(\Delta t) = \sqrt{\left( \qty{4}{ns} \right)^2 + \left( \qty{25}{ppm} \Delta t \right)^2}$.
@@ -295,17 +302,41 @@ For the sake of brevity, this uncertainty is approximated with a symmetrical unc
   \label{fig:omegagraphs}
 \end{figure}
 
-\subsection{Calculation of $\kappa$ and $\lambda$ from experimental data}
-Assuming no current, \autoref{eq:omegar} reduces to
-\begin{equation*}
-	\omega_\pm = \sqrt\frac{\kappa+\lambda \pm \lambda}{I}
-\end{equation*}
-from which, using the value for $I$ calculated in \autoref{sec:icalc}, a more accurate figure for $\kappa$ and $\lambda$ may be recovered. For $\omega_- = 2\pi\qty{154.79 \pm 0.23}{Hz} = \qty{972.6 \pm 1.4}{s^{-1}}$, a value of \qty{0.01220280 \pm 0.000000025}{N.m}
-
 \section{Discussion}
-\cref{fig:fvsi,fig:omegagraphs} show a clear deviation in the experimental values from the expected values that cannot be accounted for by the uncertainty in the experimental values. It should be noted, however, that no uncertainty could be provided for the expected data as none were provided for the quantites used in their calculation, which were obtained externally and not measured during the course of the experiment (except for current, however its uncertainty is neglible and would be hardly visible on the plot). All that being said, the experimental data exhibits a similar overall shape to that of the expected data
+While the values for positive current agree within uncertainty, \cref{fig:fvsi,fig:omegagraphs} show a clear deviation in the experimental values from the expected values for negative current that cannot be accounted for. In fact, the measurements were repeated a different day to largely the same effect (\autoref{fig:graphs1022}).
+
+This deviation may be attributable to other normal modes of the system. \autoref{tab:sr770res} shows at least one resonant frequency within \qty{50}{Hz} from the frequencies studied in this experiment when there is no tuning field present, though what normal mode this could represent is uncertain.
+
+It should also be noted that damping was largely neglected in the model for this experiment, and no attempts were made to quantify it.
+
+
+
+% damping
+% the negative current bit
+% other normal modes
+
+\begin{figure}
+  \centering
+  \begin{subfigure}{\linewidth}
+	\def\svgwidth{\linewidth}
+  \input{avoided_crossing1022.pdf_tex}
+  \end{subfigure}
+  \begin{subfigure}{.5\linewidth}
+    \def\svgwidth{\linewidth}
+    \input{omegasum1022.pdf_tex}
+  \end{subfigure}%
+  \begin{subfigure}{.5\linewidth}
+    \def\svgwidth{\linewidth}
+    \input{omegadiff1022.pdf_tex}
+  \end{subfigure}
+  \caption{Results of repeating the procedure of \autoref{sec:fftproc} on a different day.}
+  \label{fig:graphs1022}
+\end{figure}
 
 \section{Conclusion}
+The resonant frequencies obtained with the SR770 differ from those obtained with the oscilloscope by 0.1\% (for both frequencies), and from those predicted by the model (\qtylist{156;165}{Hz}) by 1\% (at most).
+For future experiments, more should be done to limit or quantify the degrees of freedom of the system. Attempts could also be made to quantify the effect of damping on the system. In any case, the behavior of the system for negative currents should be more thoroughly investigated and accounted for.
+% difference between oscilloscope and foart
 
 
 \end{document}

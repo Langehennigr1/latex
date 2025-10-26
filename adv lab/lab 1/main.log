@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.12)  22 OCT 2025 06:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.10.12)  25 OCT 2025 23:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -442,55 +442,55 @@ Package pdftex.def Info: sr770.png  used on input line 207.
 
 [7 <./resfreq154.jpg>]
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 219.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\kappa' on input line 219.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 219.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 219.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 219.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 219.
+
+
+
 [8 <./sr770.png (PNG copy)>]
-Overfull \hbox (16.36151pt too wide) in paragraph at lines 250--252
+Overfull \hbox (16.36151pt too wide) in paragraph at lines 257--259
 \OT1/cmr/m/n/10 and the full scale un-cer-tainty for a $\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = 199\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 526 []$ comes out to $\OMS/cmsy/m/n/10 ^^F\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 039 905 2 []$,
  []
 
 (./avoided_crossing.pdf_tex
-<avoided_crossing.pdf, id=1245, page=1, 722.7pt x 433.62pt>
+<avoided_crossing.pdf, id=1248, page=1, 722.7pt x 433.62pt>
 File: avoided_crossing.pdf Graphic file (type pdf)
 <use avoided_crossing.pdf, page 1>
 Package pdftex.def Info: avoided_crossing.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 345.0pt x 206.9972pt.
 ) (./omegasum.pdf_tex
-<omegasum.pdf, id=1246, page=1, 367.90262pt x 289.08pt>
+<omegasum.pdf, id=1249, page=1, 367.90262pt x 289.08pt>
 File: omegasum.pdf Graphic file (type pdf)
 <use omegasum.pdf, page 1>
 Package pdftex.def Info: omegasum.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 172.5pt x 135.54561pt.
 ) (./omegadiff.pdf_tex
-<omegadiff.pdf, id=1247, page=1, 377.48529pt x 289.08pt>
+<omegadiff.pdf, id=1250, page=1, 377.48529pt x 289.08pt>
 File: omegadiff.pdf Graphic file (type pdf)
 <use omegadiff.pdf, page 1>
 Package pdftex.def Info: omegadiff.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 172.5pt x 132.10503pt.
 )
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 298.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\kappa' on input line 298.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 298.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 298.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 298.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 298.
-
-
 
 [9]
 
@@ -500,29 +500,55 @@ pdfTeX warning: pdflatex (file ./omegasum.pdf): PDF inclusion: multiple pdfs wit
 > <./omegadiff.pdf
 
 pdfTeX warning: pdflatex (file ./omegadiff.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./avoided_crossing1022.pdf_tex
+<avoided_crossing1022.pdf, id=1999, page=1, 722.7pt x 433.62pt>
+File: avoided_crossing1022.pdf Graphic file (type pdf)
+<use avoided_crossing1022.pdf, page 1>
+Package pdftex.def Info: avoided_crossing1022.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 345.0pt x 206.9972pt.
+) (./omegasum1022.pdf_tex
+<omegasum1022.pdf, id=2000, page=1, 374.28897pt x 289.08pt>
+File: omegasum1022.pdf Graphic file (type pdf)
+<use omegasum1022.pdf, page 1>
+Package pdftex.def Info: omegasum1022.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 172.5pt x 133.22983pt.
+) (./omegadiff1022.pdf_tex
+<omegadiff1022.pdf, id=2001, page=1, 377.48529pt x 289.08pt>
+File: omegadiff1022.pdf Graphic file (type pdf)
+<use omegadiff1022.pdf, page 1>
+Package pdftex.def Info: omegadiff1022.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 172.5pt x 132.10503pt.
+)
+
+[11 <./avoided_crossing1022.pdf> <./omegasum1022.pdf
+
+pdfTeX warning: pdflatex (file ./omegasum1022.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./omegadiff1022.pdf
+
+pdfTeX warning: pdflatex (file ./omegadiff1022.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-[11] (./main.aux)
+[12] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 20A5753E564F571CC87DF25FAD9A67CA;2970.
+(rerunfilecheck)             Checksum: 197DC0317DCD925595A097F49FD00CB7;2970.
  ) 
 Here is how much of TeX's memory you used:
- 15757 strings out of 475178
- 306912 string characters out of 5766538
+ 15802 strings out of 475178
+ 308117 string characters out of 5766538
  675859 words of memory out of 5000000
- 38554 multiletter control sequences out of 15000+600000
+ 38588 multiletter control sequences out of 15000+600000
  572308 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,15n,83p,1149b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,83p,1149b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb>
-Output written on main.pdf (11 pages, 24600251 bytes).
+Output written on main.pdf (12 pages, 24786934 bytes).
 PDF statistics:
- 1803 PDF objects out of 2073 (max. 8388607)
- 1225 compressed objects within 13 object streams
- 41 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2841 PDF objects out of 2984 (max. 8388607)
+ 1913 compressed objects within 20 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
